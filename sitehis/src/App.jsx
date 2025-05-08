@@ -1,27 +1,33 @@
-
-import './App.css'
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/nav';
+import Home from './pages/home';
+import GuerraDoContestado from './pages/GuerraDoContestado';
+import GuerraDeCanudos from './pages/GuerraDeCanudos';
+import PrimeiraGuerraMundial from './pages/PrimeiraGuerraMundial';
+import RevolucaoRussa from './pages/RevolucaoRussa';
+import FascismoItaliano from './pages/FascismoItaliano';
+import CriseDe1929 from './pages/CriseDe1929';
+import Pagina9 from './pages/Pagina9';
+import Curtidas from './pages/Curtidas';
 
 function App() {
   return (
     <Router>
-      <Navbar />
+    
       <Routes>
-        <Route path="/guerra-do-contestado" element={<div>Guerra do Contestado</div>} />
-        <Route path="/guerra-de-canudos" element={<div>Guerra de Canudos</div>} />
-        <Route path="/primeira-guerra-mundial" element={<div>Primeira Guerra Mundial</div>} />
-        <Route path="/revolucao-russa" element={<div>Revolução Russa</div>} />
-        <Route path="/fascismo-italiano" element={<div>Fascismo Italiano</div>} />
-        <Route path="/crise-de-1929" element={<div>Crise de 1929</div>} />
-        <Route path="/pagina-7" element={<div>Página 7</div>} />
-        <Route path="/pagina-8" element={<div>Página 8</div>} />
-        <Route path="/pagina-9" element={<div>Página 9</div>} />
-        <Route path="/curtidas" element={<div>Curtidas</div>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/guerra-do-contestado" element={<GuerraDoContestado />} />
+        <Route path="/guerra-de-canudos" element={<GuerraDeCanudos />} />
+        <Route path="/primeira-guerra-mundial" element={<PrimeiraGuerraMundial />} />
+        <Route path="/revolucao-russa" element={<RevolucaoRussa />} />
+        <Route path="/fascismo-italiano" element={<FascismoItaliano />} />
+        <Route path="/crise-de-1929" element={<CriseDe1929 />} />
+        <Route path="/pagina-9" element={<Pagina9 />} />
+        <Route path="/curtidas" element={<Curtidas />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
-

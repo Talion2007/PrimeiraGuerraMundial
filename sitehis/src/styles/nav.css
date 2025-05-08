@@ -22,19 +22,37 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: aliceblue;
+    color: #697565;
     font-size: 16px;
     font-weight: 500;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+    
     padding: 5px 0;
-    border-bottom: 2px solid transparent;
+    
+    transition: 300ms;
 }
 
 nav ul li a:hover {
-    color: #d40000;
+    color: #ECDFCC;
+    font-size: 1.2em;
+    transition: 800ms;
+   
     
 }
 
 nav ul li a:active {
-    color: #9e0000;
+    color: #ECDFCC;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ECDFCC;
+
+    }
 }
