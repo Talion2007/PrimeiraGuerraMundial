@@ -6,6 +6,9 @@ function FascismoItaliano() {
                 <Header />
 
   <h1>Fascismo Italiano</h1>
+  <section className="bloco">
+    
+  </section>
 </div>
 }
 

@@ -8,6 +8,10 @@ function Curtidas() {
                   <Header />
 
       <h1>Curtidas</h1>
+
+      <section className="bloco">
+        
+      </section>
     </div>
   );
 }

@@ -6,6 +6,9 @@ function GuerraDeCanudos() {
                 <Header />
 
   <h1>Guerra de Canudos</h1>
+  <section className="bloco">
+    
+  </section>
 </div>
 }
 

@@ -6,6 +6,9 @@ function CriseDe1929() {
     <div>
        <Header />
       <h1>Crise de 1929</h1>
+      <section className="bloco">
+        
+      </section>
     </div>
   )
 }

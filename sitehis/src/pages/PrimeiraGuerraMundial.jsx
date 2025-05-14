@@ -7,7 +7,9 @@ function PrimeiraGuerraMundial() {
 
   <h1>A Grande Guerra <br />
  </h1>
+ <section className="bloco">
  <h3>Primeira Guerra Mundial</h3>
+ </section>
 </div>
 }
 

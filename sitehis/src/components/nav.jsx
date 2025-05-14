@@ -5,6 +5,7 @@ import '../styles/nav.css';
 function Navbar() {
   return (
     <nav>
+      
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/guerra-do-contestado">Guerra do Contestado</Link></li>

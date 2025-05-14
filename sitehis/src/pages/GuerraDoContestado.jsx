@@ -7,6 +7,10 @@ function GuerraDoContestado() {
                         <Header />
 
             <h1>Guerra do Contestado</h1>
+
+            <section className="bloco">
+                
+            </section>
       
         </div>
     );

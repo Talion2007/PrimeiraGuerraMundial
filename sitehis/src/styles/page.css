@@ -1,8 +1,137 @@
-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding: 20px;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', serif; 
+  background-color: #FAF0E6; 
+  color: #2F2F2F; 
+  min-height: 100vh;
+  line-height: 1.7; 
+  text-align: center;
+  overflow-x: hidden; 
 }
+
+
+.image-section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 40px; 
+  perspective: 1000px; 
+  
+}
+
+.imageg { 
+
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #D1C0A8;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0,0,0,0.1); 
+  transition: ease 1000ms;
+
+
+}
+
+
+.imageg:hover {
+  transform: translateY(-20px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(90, 58, 34, 0.25);
+  transition: ease 1000ms;
+}
+
+
+
+
+
+
+.hero {
+  font-family: 'Playfair Display', serif; 
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-top: 0; 
+  margin-bottom: 30px;
+  text-align: center;
+  color: #5A3A22; 
+  letter-spacing: 0.05em; 
+  line-height: 1.2;
+}
+
+
+h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #465A65; 
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+p {
+  max-width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  text-align: justify; 
+  hyphens: auto; 
+}
+
+a {
+  color: #465A65; 
+  text-decoration: none;
+  border-bottom: 1px dotted #465A65;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+a:hover, a:focus {
+  color: #5A3A22; 
+  border-bottom: 1px solid #5A3A22;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center; 
+  }
+
+  .hero {
+    font-size: clamp(1.5rem, 6vw, 2.5rem); 
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+
+  p {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px; 
+    text-align: center; 
+  }
+
+  .image-section {
+    max-width: 100%;
+    margin-bottom: 15px;
+    text-align: center; 
+  }
+
+  .imageg {
+    width: 100%;
+    border-width: 1px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2, h3 {
+    font-size: 1.4rem; 
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  a {
+    font-size: 14px;
+    border-bottom-width: 1px;
+    text-align: center; 
+    display: inline-block; 
+  }
+}
+
+
+

@@ -7,6 +7,9 @@ function RevolucaoRussa() {
                   <Header />
 
       <h1>Revoluçao Russa</h1>
+      <section className="bloco">
+        
+      </section>
     </div>
   );
 }
