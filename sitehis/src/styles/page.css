@@ -25,7 +25,7 @@ body {
   height: auto;
   border-radius: 8px;
   border: 3px solid #D1C0A8;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0,0,0,0.1); 
+ 
   transition: ease 1000ms;
 
 
@@ -34,7 +34,7 @@ body {
 
 .imageg:hover {
   transform: translateY(-20px) scale(1.03);
-  box-shadow: 0 15px 30px rgba(90, 58, 34, 0.25);
+
   transition: ease 1000ms;
 }
 
