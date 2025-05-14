@@ -4,7 +4,7 @@ import '../styles/header.css';
 function Header() {
     return (
         <header>
-           <h1>Navegue pela História!</h1>
+           <h1>A História do Século XX</h1>
         <Navbar />
         </header>
     );
