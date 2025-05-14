@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import '../styles/page.css';
+import Footer from "../components/footer";
 function RevolucaoRussa() {
   return (
     <div>
@@ -10,6 +11,7 @@ function RevolucaoRussa() {
       <section className="bloco">
         
       </section>
+      <Footer/>
     </div>
   );
 }

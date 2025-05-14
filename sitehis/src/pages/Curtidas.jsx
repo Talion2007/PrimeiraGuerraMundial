@@ -1,4 +1,4 @@
-
+import Footer from "../components/footer";
 import Header from "../components/header";
 import "../styles/page.css";
 
@@ -12,6 +12,7 @@ function Curtidas() {
       <section className="bloco">
        
       </section>
+      <Footer/>
     </div>
   );
 }

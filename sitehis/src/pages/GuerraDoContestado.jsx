@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from "../components/footer";
 import Header from '../components/header';
 import '../styles/page.css';
 function GuerraDoContestado() {
@@ -11,6 +12,7 @@ function GuerraDoContestado() {
             <section className="bloco">
                 
             </section>
+      <Footer/>
       
         </div>
     );

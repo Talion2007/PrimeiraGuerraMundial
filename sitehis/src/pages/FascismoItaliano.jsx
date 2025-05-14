@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header';
+import Footer from "../components/footer";
 import '../styles/page.css';
 function FascismoItaliano() {
   return <div>
@@ -9,6 +10,7 @@ function FascismoItaliano() {
   <section className="bloco">
     
   </section>
+      <Footer/>
 </div>
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 import "../styles/page.css";
 import imageG from "../assets/grupo.jpg";
@@ -31,6 +32,7 @@ function Pagina9() {
         </p>
       
       </section>
+      <Footer/>
     </div>
   );
 }
