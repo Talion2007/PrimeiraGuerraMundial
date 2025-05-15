@@ -1,4 +1,4 @@
-import React from "react";
+import Curtida from "../components/curtida";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import '../styles/page.css';

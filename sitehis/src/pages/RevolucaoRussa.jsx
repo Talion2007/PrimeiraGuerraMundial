@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 import Curtida from "../components/curtida";
 
 import "../styles/page.css";
-function FascismoItaliano() {
+function RevolucaoRussa() {
   return (
     <>
       <Header />
@@ -97,26 +97,6 @@ function FascismoItaliano() {
       </section>
       <Footer />
     </>
-  );
-}
-
-export default FascismoItaliano;
-
-/*import React from "react";
-import Header from "../components/header";
-import "../styles/page.css";
-import Footer from "../components/footer";
-function RevolucaoRussa() {
-  return (
-    <div>
-                  <Header />
-
-      <h1>Revoluçao Russa</h1>
-      <section className="bloco">
-        
-      </section>
-      <Footer/>
-    </div>
   );
 }
 

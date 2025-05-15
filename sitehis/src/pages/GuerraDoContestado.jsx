@@ -1,8 +1,8 @@
-import React from 'react';
 import Footer from "../components/footer";
+import Header from "../components/header";
 import Curtida from "../components/curtida";
 import "../styles/page.css";
-function FascismoItaliano() {
+function GuerraDoContestado() {
   return (
     <>
       <Header />
