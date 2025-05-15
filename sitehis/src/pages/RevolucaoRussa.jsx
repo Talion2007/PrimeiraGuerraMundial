@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
+
 import "../styles/page.css";
 function FascismoItaliano() {
   return (
