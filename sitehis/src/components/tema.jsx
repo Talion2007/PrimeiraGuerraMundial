@@ -2,10 +2,20 @@ import { useState } from "react";
 import "../styles/tema.css";
 
 function Tema() {
-  const [temEscuro, setTemEscuro] = useState(false);
+  const [temEscuro, setTemEscuro] = useState(() => {
+        const temaSalvo = localStorage.getItem("tema");
+        return temaSalvo ? JSON.parse(temaSalvo) : false;
+    });
 
   const alternarTema = () => {
-    setTemEscuro(!temEscuro);
+    if (temEscuro == false) {
+      setTemEscuro(true);
+      localStorage.setItem("tema", true);
+    }
+    else {
+      setTemEscuro(false);
+      localStorage.setItem("tema", false);
+    }
 
     
     document.body.classList.toggle("dark-mode", !temEscuro);
