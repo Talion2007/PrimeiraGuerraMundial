@@ -145,6 +145,14 @@ iframe{
   height: 70vh;
 }
 
+.bloco h2{
+  color: #5A3A22;
+}
+
+.bloco h3{
+  color: #5A3A22;
+}
+
 
 body.dark-page {
   background-color: #5A3A22;
@@ -187,6 +195,13 @@ body.dark-page .liked h2, h3{
 }
 
 body.dark-page .t1 h2{
+  color: #FAF0E6;
+}
+
+body.dark-page .bloco h2{
+  color: #FAF0E6;
+}
+body.dark-page .bloco h3{
   color: #FAF0E6;
 }
 
