@@ -5,9 +5,8 @@ import "../styles/page.css";
 function FascismoItaliano() {
   return (
     <div>
-      <Header />
+      <Header titulo="Crise de 1929"/>
 
-      <h1 className="hero">Crise de 1929</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">

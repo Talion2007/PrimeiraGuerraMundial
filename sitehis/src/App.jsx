@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/home';
+import Home from './pages/HomePage';
 import GuerraDoContestado from './pages/GuerraDoContestado';
 import GuerraDeCanudos from './pages/GuerraDeCanudos';
 import PrimeiraGuerraMundial from './pages/PrimeiraGuerraMundial';
 import RevolucaoRussa from './pages/RevolucaoRussa';
 import FascismoItaliano from './pages/FascismoItaliano';
 import CriseDe1929 from './pages/CriseDe1929';
-import Pagina9 from './pages/Pagina9';
+import Pagina9 from './pages/SobreNos';
 import Curtidas from './pages/Curtidas';
 
 function App() {

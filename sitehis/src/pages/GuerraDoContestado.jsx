@@ -5,9 +5,8 @@ import "../styles/page.css";
 function GuerraDoContestado() {
   return (
     <>
-      <Header />
+      <Header titulo="Guerra do Contestado"/>
 
-      <h1 className="hero">Guerra do Contestado</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">

@@ -6,9 +6,8 @@ import "../styles/page.css";
 function RevolucaoRussa() {
   return (
     <>
-      <Header />
+      <Header titulo="Revolução Russa"/>
 
-      <h1 className="hero">Revoluçao Russa</h1>
       <section className="bloco">
         <section className="c1">
       <p className="t1">

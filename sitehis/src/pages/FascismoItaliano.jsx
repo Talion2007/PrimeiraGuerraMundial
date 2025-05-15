@@ -5,9 +5,8 @@ import "../styles/page.css";
 function FascismoItaliano() {
   return (
     <div>
-      <Header />
+      <Header titulo="Fascismo Italiano"/>
 
-      <h1 className="hero">Fascismo Italiano</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">

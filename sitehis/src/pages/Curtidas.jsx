@@ -50,9 +50,9 @@ const medias = [
 const mediaOrdenada = medias.sort((a, b) => b.nota - a.nota);
 
   return (
-    <div className="liked">
-      <Header />
-      <h1>Curtidas</h1>
+    <>
+      <Header titulo="Avaliações"/> 
+
       <section className="bloco">
         <h2>Ranking das Notas: </h2>
           {mediaOrdenada.map((media, index) => (
@@ -63,7 +63,7 @@ const mediaOrdenada = medias.sort((a, b) => b.nota - a.nota);
           ))}
       </section>
       <Footer/>
-    </div>
+    </>
   );
 }
 

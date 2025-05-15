@@ -5,9 +5,8 @@ import "../styles/page.css";
 function PrimeiraGuerraMundial() {
   return (
     <>
-      <Header />
+      <Header titulo="Primeira Guerra Mundial"/>
 
-      <h1 className="hero">Primeira Guerra Mundial</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">

@@ -5,11 +5,11 @@ import Footer from "../components/footer";
 import "../styles/page.css";
 import imageG from "../assets/grupo.jpg";
 
-function Pagina9() {
+function SobreNos() {
   return (
-    <div>
-      <Header />
-      <h1 className="hero">Sobre o Grupo</h1>
+    <>
+      <Header titulo="Sobre Nós"/>
+
       <img src={imageG} className="imageg" />
       <section className="bloco">
         <p>
@@ -33,8 +33,8 @@ function Pagina9() {
       
       </section>
       <Footer/>
-    </div>
+    </>
   );
 }
 
-export default Pagina9;
+export default SobreNos;

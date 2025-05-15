@@ -5,9 +5,8 @@ import '../styles/page.css';
 function GuerraDeCanudos() {
   return (
   <>
-    <Header />
+    <Header titulo="Guerra de Canudos"/>
 
-    <h1 className="hero">Guerra de Canudos</h1>
     <section className="bloco">
 
       <section className="c1">
