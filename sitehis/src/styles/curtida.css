@@ -5,15 +5,15 @@
     flex-direction: row;
     gap: 1em;
     padding:  0.25em;
-    margin: 0;
-    background-color: #465A65;
+    margin: 1em;
+    background-color: #5a3a22;
     border-radius: 3em;
     width: 35vw;
     height:  2em;
 
     p {
      margin: 0%;
-     color: antiquewhite;
+     color: #fafafa;
     }
 
     button {
@@ -22,9 +22,11 @@
         cursor: pointer;
         padding: 0.25em;
         margin: 0.5em;
-        color: #465A65;
+        color: #5a3a22;
     }
 }
+
+
 
 .ranking {
     padding: 0.75em;

@@ -127,4 +127,4 @@ function GuerraDoContestado() {
   );
 }
 
-export default GuerraDoContestado;
+export default FascismoItaliano;

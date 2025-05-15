@@ -1,7 +1,7 @@
-import Curtida from '../components/curtida';
 import Header from '../components/header';
 import Footer from "../components/footer";
-import '../styles/page.css';
+import Curtida from "../components/curtida";
+import "../styles/page.css";
 function PrimeiraGuerraMundial() {
   return (
     <>
@@ -9,7 +9,6 @@ function PrimeiraGuerraMundial() {
 
       <h1 className="hero">Primeira Guerra Mundial</h1>
       <section className="bloco">
-
         <section className="c1">
           <p className="t1">
             A Primeira Guerra Mundial, também conhecida como Grande Guerra, foi
@@ -51,6 +50,7 @@ function PrimeiraGuerraMundial() {
             qual a Alemanha tentava convencer o México a entrar em guerra contra
             os EUA. A entrada americana trouxe novo ânimo aos Aliados e acelerou
             a derrota das Potências Centrais.
+
              Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
             Entente, após ataques de submarinos alemães a navios civis e pela
             revelação do Telegrama Zimmermann, no qual a Alemanha tentava
@@ -89,7 +89,6 @@ function PrimeiraGuerraMundial() {
             <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
             <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
           </aside>
-
         </section>
 
         <section className="c2">

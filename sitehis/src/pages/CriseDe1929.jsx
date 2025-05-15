@@ -1,12 +1,13 @@
-import Curtida from "../components/curtida";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import '../styles/page.css';
-function CriseDe1929() {
+import Curtida from "../components/curtida";
+import "../styles/page.css";
+function FascismoItaliano() {
   return (
     <div>
-       <Header />
-      <h1>Crise de 1929</h1>
+      <Header />
+
+      <h1 className="hero">Crise de 1929</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">
@@ -109,9 +110,9 @@ function CriseDe1929() {
         <Curtida id="Video Crise de 1929" />
         </article>
       </section>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default CriseDe1929;
+export default FascismoItaliano;

@@ -26,3 +26,19 @@ footer{
     width: 10em;
     margin-bottom: -4em;
 }
+
+body.dark-header header {
+  background-color: #5A3A22;
+  color: #FAF0E6;
+
+
+
+}
+
+body.dark-header h1{
+    color: #FAF0E6;
+}
+
+body.dark-header .logot {
+  filter: brightness(0.8);
+}

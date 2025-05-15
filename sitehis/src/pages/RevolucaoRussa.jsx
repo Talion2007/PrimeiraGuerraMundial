@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
@@ -12,7 +11,7 @@ function RevolucaoRussa() {
       <h1 className="hero">Revoluçao Russa</h1>
       <section className="bloco">
         <section className="c1">
-          <p className="t1">
+      <p className="t1">
             A Revolução Russa foi um dos acontecimentos mais marcantes e
             transformadores do século XX. Ela ocorreu no ano de 1917 e resultou
             na queda da monarquia czarista que governava a Rússia há séculos,
@@ -38,6 +37,7 @@ function RevolucaoRussa() {
             representantes da burguesia e moderados. No entanto, esse novo
             governo não conseguiu atender às principais demandas do povo, como o
             fim da guerra, a distribuição de terras e melhores condições de
+
             vida. A insatisfação popular continuava alta. A segunda fase da
             revolução ocorreu em outubro do mesmo ano e foi liderada por
             Vladimir Lênin e pelo Partido Bolchevique. Os bolcheviques
@@ -85,6 +85,8 @@ function RevolucaoRussa() {
 
 <article>
         <iframe
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/r_1xj0Pyi-8?si=Ff8GTS9Yq96SJK11"
           title="YouTube video player"
           frameborder="0"
