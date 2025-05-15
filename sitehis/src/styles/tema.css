@@ -23,3 +23,8 @@ button:active {
     transform: scale(0.70); 
     background-color: #3A1A12; 
 }
+
+body.dark-mode button {
+  background-color: #FAF0E6;
+  color: #5A3A22;
+}
