@@ -15,24 +15,6 @@ function Home() {
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores veniam laboriosam, tenetur consequatur, architecto sed error odit odio omnis distinctio optio quos numquam cumque consectetur pariatur qui saepe? Consectetur, esse?
                 </p>
             </section>
-            <Curtida id="Artigo Canudos"/>
-            <p>---</p>
-            <Curtida id="Video Canudos"/>
-            <p>---</p>
-            <Curtida id="Wikipedia Canudos"/>
-            <p>---</p>
-            <Curtida id="Artigo Contestado"/>
-            <p>---</p>
-            <Curtida id="Video Contestado"/>
-            <p>---</p>
-            <Curtida id="Wikipedia Contestado"/>
-            <p>---</p>
-            <Curtida id="Artigo Primeira Guerra"/>
-            <p>---</p>
-            <Curtida id="Video Primeira Guerra"/>
-            <p>---</p>
-            <Curtida id="Wikipedia Primeira Guerra"/>
-
       <Footer/>
         </div>
     );

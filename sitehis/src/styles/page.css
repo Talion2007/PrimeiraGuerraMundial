@@ -103,7 +103,18 @@ a:hover, a:focus {
   padding: 1em;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 iframe{
   width: 70vw;
