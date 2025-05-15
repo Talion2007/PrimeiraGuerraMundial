@@ -21,3 +21,11 @@ body{
     padding: 1em;
     color: #2F2F2F;
 }
+
+
+.ImagemCarrocel{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
