@@ -127,7 +127,11 @@ article {
   align-items: center;
 }
 
-
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 iframe{
   width: 70vw;
