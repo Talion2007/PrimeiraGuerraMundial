@@ -1,0 +1,16 @@
+.avaliaçãoEstrelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    padding:  0.25em;
+    margin: 0;
+    background-color: #465A65;
+    border-radius: 3em;
+
+    p {
+     margin: 0%;
+     color: antiquewhite;
+    }
+}
