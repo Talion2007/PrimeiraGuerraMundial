@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../styles/curtida.css'; // Importando o CSS para estilização
 
+
 function Curtida(props) {
     const [avaliacao, setAvaliacao] = useState(() => {
         const curtidasalva = localStorage.getItem(props.id);

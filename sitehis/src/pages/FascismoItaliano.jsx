@@ -1,5 +1,6 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Curtida from "../components/curtida";
 import "../styles/page.css";
 function FascismoItaliano() {
   return (
@@ -79,12 +80,14 @@ function FascismoItaliano() {
             explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
             reiciendis repudiandae nemo?
           </p>
+          
           <aside className="ima">
             <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
             <img src="https://www.infoescola.com/wp-content/uploads/2007/11/Benito_Mussolini.jpg" />
           </aside>
+         
         </section>
-      
+
         <section className="c2">
           <aside className="ima">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa2lxqrxnimpEhSCr0oLTRTN43dSoD_nftAw&s" />
