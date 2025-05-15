@@ -41,6 +41,14 @@ body {
   line-height: 1.2;
 }
 
+strong{
+  color: #5A3A22;
+}
+
+.stru{
+  color: #5A3A22;
+}
+
 h2, h3 {
   font-family: 'Playfair Display', serif;
   color: #465A65;
@@ -81,6 +89,15 @@ a:hover, a:focus {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
+  transition: ease 1000ms;
+}
+.bloco img:hover {
+  width: 45vw;
+  height: auto;
+  border-radius: 8px;
+ box-shadow: 0 8px 16px rgba(55, 25, 0, 0.7);
+  margin-bottom: 15px;
+  transition: ease 1000ms;
 }
 
 .ima {
