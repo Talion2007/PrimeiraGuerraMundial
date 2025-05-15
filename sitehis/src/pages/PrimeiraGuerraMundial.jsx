@@ -64,6 +64,7 @@ function PrimeiraGuerraMundial() {
           <aside className="ima">
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
       <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
+                  <Curtida id="Artigo Primeira Guerra"/>
           </aside>
           <p className="t1">
             Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
@@ -99,6 +100,8 @@ function PrimeiraGuerraMundial() {
           Mundial.
           </p>
         </section>
+
+        <article>
         <iframe
           width="560"
           height="315"
@@ -109,6 +112,8 @@ function PrimeiraGuerraMundial() {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+                    <Curtida id="Video Primeira Guerra"/>
+                    </article>
       </section>
       <Footer />
     </div>

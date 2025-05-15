@@ -56,6 +56,7 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
+                    <Curtida id="Artigo Contestado"/>
           </aside>
           <p className="t1">
             Esses trabalhadores, junto com os camponeses expulsos, começaram a
@@ -104,6 +105,8 @@ function FascismoItaliano() {
             buscava apenas viver com dignidade.
           </p>
         </section>
+
+        <article>
         <iframe
           width="560"
           height="315"
@@ -114,6 +117,8 @@ function FascismoItaliano() {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        <Curtida id="Video Contestado"/>
+        </article>
       </section>
       <Footer />
     </div>
