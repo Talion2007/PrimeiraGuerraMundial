@@ -20,6 +20,8 @@ body{
     border-radius: 1em;
     padding: 1em;
     color: #2F2F2F;
+    
+  transition: background-color 0.3s ease-in-out;
 }
 
 
@@ -27,4 +29,6 @@ body.dark-home .bloco {
   background-color: #6a4930;
   color: #FAF0E6;
   border: 1px solid #5A3A22;
+  
+  transition: background-color 0.3s ease-in-out;
 }

@@ -8,6 +8,8 @@ body {
   line-height: 1.7;
   text-align: center;
   overflow-x: hidden;
+  
+  transition: background-color 0.3s ease-in-out;
 }
 
 .image-section {
@@ -142,6 +144,7 @@ iframe{
 body.dark-page {
   background-color: #5A3A22;
   color: #FAF0E6;
+  transition: background-color 0.3s ease-in-out;
 }
 
 body.dark-page p {
@@ -167,6 +170,15 @@ body.dark-page .bloco img:hover {
  box-shadow: 0 8px 16px rgba(255, 226, 202, 0.7);
   margin-bottom: 15px;
   transition: ease 1000ms;
+}
+
+
+.liked h2, h3{
+  color: #5a3a22;
+}
+
+body.dark-page .liked h2, h3{
+  color: #FAF0E6;
 }
 
 
