@@ -3,27 +3,64 @@ import Header from "../components/header";
 import { useState } from "react";
 import "../styles/page.css";
 
-function Curtidas() {
-  const avaliacao11 = localStorage.getItem("Curtida11") || 0;
-  const avaliacao12 = localStorage.getItem("Curtida12") || 0;
-  const avaliacao13 = localStorage.getItem("Curtida13") || 0;
-  
-  const avaliacao21 = localStorage.getItem("Curtida21") || 0;
-  const avaliacao22 = localStorage.getItem("Curtida22") || 0;
-  const avaliacao23 = localStorage.getItem("Curtida23") || 0;
 
-  const mediaCanudos = (avaliacao11 + avaliacao12 + avaliacao13) / 3;
-  const mediaContestado = (avaliacao21 + avaliacao22 + avaliacao23) / 3;
+function Curtidas() {
+  const artigoCanudos = localStorage.getItem("Artigo Canudos") || 0;
+  const videoCanudos = localStorage.getItem("Video Canudos") || 0;
+  const wikipediaCanudos = localStorage.getItem("Wikipedia Canudos") || 0;
+  const mediaCanudos =
+    ((parseInt(artigoCanudos) + parseInt(videoCanudos) + parseInt(wikipediaCanudos)) / 3).toFixed(2);
+
+  const artigoContestado = localStorage.getItem("Artigo Contestado") || 0;
+  const videoContestado = localStorage.getItem("Video Contestado") || 0;
+  const wikipediaContestado = localStorage.getItem("Wikipedia Contestado") || 0;
+  const mediaContestado =
+    ((parseInt(artigoContestado) + parseInt(videoContestado) + parseInt(wikipediaContestado)) / 3).toFixed(2);
+
+    const artigoPrimeiraGuerra = localStorage.getItem("Artigo Primeira Guerra") || 0;
+    const videoPrimeiraGuerra = localStorage.getItem("Video Primeira Guerra") || 0
+    const wikipediaPrimeiraGuerra = localStorage.getItem("Wikipedia Primeira Guerra") || 0;
+    const mediaPrimeiraGuerra = ((parseInt(artigoPrimeiraGuerra) + parseInt(videoPrimeiraGuerra) + parseInt(wikipediaPrimeiraGuerra)) / 3).toFixed(2);
+
+    const artigoRevolucaoRussa = localStorage.getItem("Artigo Revolução Russa") || 0;
+    const videoRevolucaoRussa = localStorage.getItem("Video Revolução Russa")
+    const wikipediaRevolucaoRussa = localStorage.getItem("Wikipedia Revolução Russa") || 0;
+    const mediaRevolucaoRussa = ((parseInt(artigoRevolucaoRussa) + parseInt(videoRevolucaoRussa) + parseInt(wikipediaRevolucaoRussa)) / 3).toFixed(2);
+
+    const artigoFascismoItaliano = localStorage.getItem("Artigo Fascismo Italiano") || 0;
+    const videoFascismoItaliano = localStorage.getItem("Video Fascismo Italiano") || 0;
+    const wikipediaFascismoItaliano = localStorage.getItem("Wikipedia Fascismo Italiano") || 0;
+    const mediaFascismoItaliano = ((parseInt(artigoFascismoItaliano) + parseInt(videoFascismoItaliano) + parseInt(wikipediaFascismoItaliano)) / 3).toFixed(2);
+
+    const artigoCrise1929 = localStorage.getItem("Artigo Crise de 1929") || 0;
+    const videoCrise1929 = localStorage.getItem("Video Crise de 1929") || 0;
+    const wikipediaCrise1929 = localStorage.getItem("Wikipedia Crise de 1929") || 0;
+    const mediaCrise1929 = ((parseInt(artigoCrise1929) + parseInt(videoCrise1929) + parseInt(wikipediaCrise1929)) / 3).toFixed(2);
+
+const medias = [
+  { nome: "Canudos", nota: mediaCanudos },
+  { nome: "Contestado", nota: mediaContestado },
+  { nome: "Primeira Guerra", nota: mediaPrimeiraGuerra },
+  { nome: "Revolução Russa", nota: mediaRevolucaoRussa },
+  { nome: "Fascismo Italiano", nota: mediaFascismoItaliano },
+  { nome: "Crise de 1929", nota: mediaCrise1929 }
+];
+
+// Ordenar as notas em ordem decrescente
+const mediaOrdenada = medias.sort((a, b) => b.nota - a.nota);
 
   return (
-    <div>
+    <div className="liked">
       <Header />
       <h1>Curtidas</h1>
       <section className="bloco">
-        <p>Nota 1: {avaliacao11} </p>
-        <p>Nota 2: {avaliacao12} </p>
-        <p>Média: {Media} </p>
-       
+        <h2>Ranking das Notas: </h2>
+          {mediaOrdenada.map((media, index) => (
+            <div key={media.nome} className="ranking">
+              <h2>{index + 1}° - {media.nome}</h2>
+              <h3>Nota: {media.nota}</h3>
+            </div>
+          ))}
       </section>
       <Footer/>
     </div>

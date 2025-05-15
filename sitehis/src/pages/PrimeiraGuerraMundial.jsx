@@ -1,15 +1,14 @@
-import Header from "../components/header";
+import Header from '../components/header';
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
 import "../styles/page.css";
 function PrimeiraGuerraMundial() {
   return (
-    <div>
+    <>
       <Header />
 
       <h1 className="hero">Primeira Guerra Mundial</h1>
       <section className="bloco">
-        
         <section className="c1">
           <p className="t1">
             A Primeira Guerra Mundial, também conhecida como Grande Guerra, foi
@@ -51,67 +50,74 @@ function PrimeiraGuerraMundial() {
             qual a Alemanha tentava convencer o México a entrar em guerra contra
             os EUA. A entrada americana trouxe novo ânimo aos Aliados e acelerou
             a derrota das Potências Centrais.
+
+             Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
+            Entente, após ataques de submarinos alemães a navios civis e pela
+            revelação do Telegrama Zimmermann, no qual a Alemanha tentava
+            convencer o México a entrar em guerra contra os EUA. A entrada
+            americana trouxe novo ânimo aos Aliados e acelerou a derrota das
+            Potências Centrais. A guerra terminou oficialmente em 11 de novembro
+            de 1918, com a rendição da Alemanha e a assinatura do armistício de
+            Compiègne. O saldo da guerra foi trágico: cerca de 10 milhões de
+            mortos, 20 milhões de feridos, além de milhões de civis afetados por
+            fome, doenças e deslocamentos forçados. Em 1919, foi assinado o
+            Tratado de Versalhes, que impôs duras punições à Alemanha,
+            responsabilizando-a pela guerra, exigindo indenizações financeiras
+            pesadas, perdas territoriais e a redução drástica de seu exército. O
+            tratado também provocou o fim de grandes impérios: o Austro-Húngaro, o
+            Otomano, o Alemão e o Russo. No lugar desses impérios, surgiram novos
+            países como Polônia, Tchecoslováquia e Iugoslávia. As consequências da
+            guerra foram profundas e de longo alcance. A Alemanha saiu humilhada,
+            com sua economia arrasada e a população ressentida, o que mais tarde
+            seria explorado por ideologias extremistas, como o nazismo. A
+            Revolução Russa, ocorrida durante a guerra, levou à formação da União
+            Soviética e ao surgimento do comunismo como alternativa ao capitalismo
+            ocidental. A Primeira Guerra Mundial também provocou mudanças sociais,
+            como a maior participação das mulheres no mercado de trabalho, avanços
+            tecnológicos e uma profunda desilusão com os valores tradicionais da
+            sociedade europeia. Além disso, a guerra marcou o declínio da Europa
+            como centro do poder mundial, abrindo espaço para a ascensão dos
+            Estados Unidos e da União Soviética como novas superpotências. Com
+            todos esses elementos, a Primeira Guerra Mundial não apenas mudou o
+            mapa político da Europa, mas também lançou as bases para os grandes
+            conflitos e transformações do século XX, incluindo a Segunda Guerra
+            Mundial.
+            <Curtida id="Artigo Primeira Guerra" />
           </p>
-          
+
           <aside className="ima">
-           <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
-      <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
+            <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
+            <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
           </aside>
-         
         </section>
 
         <section className="c2">
           <aside className="ima">
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
-      <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
+            <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
           </aside>
           <p className="t1">
-            Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
-          Entente, após ataques de submarinos alemães a navios civis e pela
-          revelação do Telegrama Zimmermann, no qual a Alemanha tentava
-          convencer o México a entrar em guerra contra os EUA. A entrada
-          americana trouxe novo ânimo aos Aliados e acelerou a derrota das
-          Potências Centrais. A guerra terminou oficialmente em 11 de novembro
-          de 1918, com a rendição da Alemanha e a assinatura do armistício de
-          Compiègne. O saldo da guerra foi trágico: cerca de 10 milhões de
-          mortos, 20 milhões de feridos, além de milhões de civis afetados por
-          fome, doenças e deslocamentos forçados. Em 1919, foi assinado o
-          Tratado de Versalhes, que impôs duras punições à Alemanha,
-          responsabilizando-a pela guerra, exigindo indenizações financeiras
-          pesadas, perdas territoriais e a redução drástica de seu exército. O
-          tratado também provocou o fim de grandes impérios: o Austro-Húngaro, o
-          Otomano, o Alemão e o Russo. No lugar desses impérios, surgiram novos
-          países como Polônia, Tchecoslováquia e Iugoslávia. As consequências da
-          guerra foram profundas e de longo alcance. A Alemanha saiu humilhada,
-          com sua economia arrasada e a população ressentida, o que mais tarde
-          seria explorado por ideologias extremistas, como o nazismo. A
-          Revolução Russa, ocorrida durante a guerra, levou à formação da União
-          Soviética e ao surgimento do comunismo como alternativa ao capitalismo
-          ocidental. A Primeira Guerra Mundial também provocou mudanças sociais,
-          como a maior participação das mulheres no mercado de trabalho, avanços
-          tecnológicos e uma profunda desilusão com os valores tradicionais da
-          sociedade europeia. Além disso, a guerra marcou o declínio da Europa
-          como centro do poder mundial, abrindo espaço para a ascensão dos
-          Estados Unidos e da União Soviética como novas superpotências. Com
-          todos esses elementos, a Primeira Guerra Mundial não apenas mudou o
-          mapa político da Europa, mas também lançou as bases para os grandes
-          conflitos e transformações do século XX, incluindo a Segunda Guerra
-          Mundial.
+           <h2>Informações da API</h2>
+            <Curtida id="Wikipedia Primeira Guerra" />
           </p>
         </section>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/jACiIe8Ly5o?si=TwvuBLs_CtAsTtp0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+
+        <article>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/jACiIe8Ly5o?si=TwvuBLs_CtAsTtp0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <Curtida id="Video Primeira Guerra" />
+        </article>
       </section>
       <Footer />
-    </div>
+    </>
   );
 }
 

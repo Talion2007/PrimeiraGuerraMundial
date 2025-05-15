@@ -5,12 +5,41 @@
     flex-direction: row;
     gap: 1em;
     padding:  0.25em;
-    margin: 0;
-    background-color: #465A65;
+    margin: 1em;
+    background-color: #5a3a22;
     border-radius: 3em;
+    width: 35vw;
+    height:  2em;
 
     p {
      margin: 0%;
-     color: antiquewhite;
+     color: #fafafa;
+    }
+
+    button {
+        background-color: antiquewhite;
+        border: none;
+        cursor: pointer;
+        padding: 0.25em;
+        margin: 0.5em;
+        color: #5a3a22;
+    }
+}
+
+
+
+.ranking {
+    padding: 0.75em;
+
+    h2, h3{
+        margin: 0.25em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .avaliaçãoEstrelas{
+        flex-direction: column;
+        width: 65vw;
+        height: auto;
     }
 }

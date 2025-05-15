@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/nav.css'; 
 
+
 function Navbar() {
   return (
     <nav>
@@ -17,6 +18,7 @@ function Navbar() {
        
         <li><Link to="/pagina-9">Sobre</Link></li>
         <li><Link to="/curtidas">Curtidas</Link></li>
+      
       </ul>
     </nav>
   );

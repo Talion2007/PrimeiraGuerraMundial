@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 1em;
   font-family: 'Lora', serif;
   background-color: #FAF0E6;
   color: #2F2F2F;
@@ -8,6 +8,8 @@ body {
   line-height: 1.7;
   text-align: center;
   overflow-x: hidden;
+  
+  transition: background-color 0.3s ease-in-out;
 }
 
 .image-section {
@@ -41,9 +43,17 @@ body {
   line-height: 1.2;
 }
 
+strong{
+  color: #5A3A22;
+}
+
+.stru{
+  color: #5A3A22;
+}
+
 h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #465A65;
+  color: #5a3a22;
   margin-top: 2em;
   margin-bottom: 0.8em;
 }
@@ -55,6 +65,7 @@ p {
   margin-bottom: 1.5em;
   text-align: justify;
   hyphens: auto;
+
 }
 
 a {
@@ -81,6 +92,15 @@ a:hover, a:focus {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
+  transition: ease 1000ms;
+}
+.bloco img:hover {
+  width: 45vw;
+  height: auto;
+  border-radius: 8px;
+ box-shadow: 0 8px 16px rgba(55, 25, 0, 0.7);
+  margin-bottom: 15px;
+  transition: ease 1000ms;
 }
 
 .ima {
@@ -101,14 +121,77 @@ a:hover, a:focus {
   display: flex;
   flex-direction: column;
   padding: 1em;
+
+  h2{
+    color: #5A3A22;
+  }
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 iframe{
   width: 70vw;
   height: 70vh;
 }
+
+
+body.dark-page {
+  background-color: #5A3A22;
+  color: #FAF0E6;
+  transition: background-color 0.3s ease-in-out;
+}
+
+body.dark-page p {
+  color: #FAF0E6;
+}
+
+body.dark-page a {
+  color: #ffffff;
+}
+
+body.dark-page a:hover {
+  color: #5A3A22;
+}
+
+body.dark-page strong{
+  color: #D1C0A8;
+}
+
+body.dark-page .bloco img:hover {
+  width: 45vw;
+  height: auto;
+  border-radius: 8px;
+ box-shadow: 0 8px 16px rgba(255, 226, 202, 0.7);
+  margin-bottom: 15px;
+  transition: ease 1000ms;
+}
+
+
+.liked h2, h3{
+  color: #5a3a22;
+}
+
+body.dark-page .liked h2, h3{
+  color: #FAF0E6;
+}
+
+body.dark-page .t1 h2{
+  color: #FAF0E6;
+}
+
+
+
 
 @media only screen and (max-width: 480px) {
   body {
@@ -155,6 +238,7 @@ iframe{
     margin-bottom: 0.5em;
     text-align: center;
   }
+
 
   a {
     font-size: 14px;
