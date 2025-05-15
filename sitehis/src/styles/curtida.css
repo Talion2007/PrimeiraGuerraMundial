@@ -8,9 +8,28 @@
     margin: 0;
     background-color: #465A65;
     border-radius: 3em;
+    width: 35vw;
+    height:  2em;
 
     p {
      margin: 0%;
      color: antiquewhite;
+    }
+
+    button {
+        background-color: antiquewhite;
+        border: none;
+        cursor: pointer;
+        padding: 0.25em;
+        margin: 0.5em;
+        color: #465A65;
+    }
+}
+
+.ranking {
+    padding: 0.75em;
+
+    h2,h3{
+        margin: 0.25em;
     }
 }

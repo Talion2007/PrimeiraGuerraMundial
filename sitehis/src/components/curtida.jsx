@@ -13,6 +13,11 @@ function Curtida(props) {
     localStorage.setItem(props.id, estrela);
   };
 
+  const zerar = () => {
+    setAvaliacao(0);
+    localStorage.removeItem(props.id);
+  }
+
   const renderEstrelas = () => {
     const estrelas = [];
     for (let i = 1; i <= 10; i++) {
@@ -30,12 +35,23 @@ function Curtida(props) {
   };
 
   return (
-    <div className='avaliaçãoEstrelas'>
+    <>
+    {avaliacao > 0 ?
+      <div className='avaliaçãoEstrelas'>
+      <p>Nota: {avaliacao} - Obrigado por avaliar!</p>
+      <p>
+              <button onClick={zerar}>Alterar nota!</button>
+      </p>
+      </div>
+    :
+        <div className='avaliaçãoEstrelas'>
       <p>Avalie o {props.id}: </p>
       <p>
-      {renderEstrelas()}
+         {renderEstrelas()}
       </p>
     </div>
+}
+</>
   );
 }
 
