@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import { useState } from "react";
 import "../styles/page.css";
-import "../styles/curtida.css"; // Importando o CSS para estilização
+
 
 function Curtidas() {
   const artigoCanudos = localStorage.getItem("Artigo Canudos") || 0;
@@ -32,7 +32,7 @@ const medias = [
 const mediaOrdenada = medias.sort((a, b) => b.nota - a.nota);
 
   return (
-    <div>
+    <div className="liked">
       <Header />
       <h1>Curtidas</h1>
       <section className="bloco">

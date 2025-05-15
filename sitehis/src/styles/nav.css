@@ -99,6 +99,8 @@ div{
 body.dark-nav nav {
   background-color: #5A3A22;
   border-bottom: 2px solid #5A3A22;
+  
+  transition: background-color 0.3s ease-in-out;
 }
 
 body.dark-nav nav ul li a {

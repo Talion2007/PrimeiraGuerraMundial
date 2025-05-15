@@ -30,6 +30,8 @@ footer{
 body.dark-header header {
   background-color: #5A3A22;
   color: #FAF0E6;
+  
+  transition: background-color 0.3s ease-in-out;
 
 
 
