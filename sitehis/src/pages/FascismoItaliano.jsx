@@ -83,7 +83,6 @@ function FascismoItaliano() {
             <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
           </aside>
           <p className="t1">
-            <strong>WIKIPEDIA</strong>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
             temporibus officiis odio nisi atque consequuntur. Totam odit neque
             explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
