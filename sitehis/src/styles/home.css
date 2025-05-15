@@ -24,6 +24,12 @@ body{
   transition: background-color 0.3s ease-in-out;
 }
 
+.ImagemCarrocel{
+    width: 50vw;
+    height: 50vh;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
 
 body.dark-home .bloco {
   background-color: #6a4930;
