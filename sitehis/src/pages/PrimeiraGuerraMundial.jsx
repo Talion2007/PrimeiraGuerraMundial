@@ -1,30 +1,17 @@
-import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Curtida from "../components/curtida";
 import "../styles/page.css";
 function PrimeiraGuerraMundial() {
   return (
     <div>
       <Header />
 
-      <h1>Primeira Guerra Mundial</h1>
-
-      <section>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/jACiIe8Ly5o?si=TwvuBLs_CtAsTtp0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </section>
-
+      <h1 className="hero">Primeira Guerra Mundial</h1>
       <section className="bloco">
-        <article>
-          <p>
+        
+        <section className="c1">
+          <p className="t1">
             A Primeira Guerra Mundial, também conhecida como Grande Guerra, foi
             um dos conflitos mais devastadores da história da humanidade,
             ocorrendo entre os anos de 1914 e 1918. Envolvendo as principais
@@ -65,13 +52,21 @@ function PrimeiraGuerraMundial() {
             os EUA. A entrada americana trouxe novo ânimo aos Aliados e acelerou
             a derrota das Potências Centrais.
           </p>
-        </article>
-      </section>
-      <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
+          
+          <aside className="ima">
+           <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
       <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
-      <section className="bloco">
-        <p>
-          Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
+          </aside>
+         
+        </section>
+
+        <section className="c2">
+          <aside className="ima">
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
+      <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
+          </aside>
+          <p className="t1">
+            Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
           Entente, após ataques de submarinos alemães a navios civis e pela
           revelação do Telegrama Zimmermann, no qual a Alemanha tentava
           convencer o México a entrar em guerra contra os EUA. A entrada
@@ -102,10 +97,19 @@ function PrimeiraGuerraMundial() {
           mapa político da Europa, mas também lançou as bases para os grandes
           conflitos e transformações do século XX, incluindo a Segunda Guerra
           Mundial.
-        </p>
+          </p>
+        </section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jACiIe8Ly5o?si=TwvuBLs_CtAsTtp0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </section>
-      <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
-      <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
       <Footer />
     </div>
   );
