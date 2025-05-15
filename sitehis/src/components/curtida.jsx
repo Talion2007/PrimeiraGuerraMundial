@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+
 function Curtida(props) {
     const [avaliacao, setAvaliacao] = useState(() => {
         const curtidasalva = localStorage.getItem(props.id);
