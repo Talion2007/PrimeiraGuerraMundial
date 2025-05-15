@@ -16,7 +16,7 @@ function Tema() {
   };
 
   return (
-    <button className="botaotema" onClick={alternarTema}>
+    <button onClick={alternarTema}>
       {temEscuro ? "Modo Claro" : "Modo Escuro"}
     </button>
   );
