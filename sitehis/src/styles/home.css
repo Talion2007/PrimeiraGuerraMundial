@@ -4,8 +4,6 @@ body{
     justify-content: center;
 }
 
-
-
 .homec{
     display: flex;
     flex-direction: column;
@@ -27,6 +25,9 @@ body{
 .ImagemCarrocel{
     width: 50vw;
     height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    transition: 2.5s;
     border-radius: 1em;
     margin-bottom: 1em;
 }
