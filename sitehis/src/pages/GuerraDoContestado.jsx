@@ -1,10 +1,10 @@
-import Header from "../components/header";
 import Footer from "../components/footer";
+import Header from "../components/header";
 import Curtida from "../components/curtida";
 import "../styles/page.css";
-function FascismoItaliano() {
+function GuerraDoContestado() {
   return (
-    <div>
+    <>
       <Header />
 
       <h1 className="hero">Guerra do Contestado</h1>
@@ -44,22 +44,7 @@ function FascismoItaliano() {
             mundo mais justo. O mais conhecido desses líderes foi José Maria de
             Santo Agostinho, um monge curandeiro que se tornou referência
             espiritual para os camponeses.
-          </p>
-
-          <aside className="ima">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtjng9ySOLytyaGefmjU2i2gwKXNE7amIrg&s" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Contestado_tropa_Ex%C3%A9rcito.jpg" />
-          </aside>
-        </section>
-
-        <section className="c2">
-          <aside className="ima">
-            <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
-                    <Curtida id="Artigo Contestado"/>
-          </aside>
-          <p className="t1">
-            Esses trabalhadores, junto com os camponeses expulsos, começaram a
+             Esses trabalhadores, junto com os camponeses expulsos, começaram a
             se organizar e resistir à expulsão. Eles viam nas ações do governo e
             das empresas uma ameaça à sua sobrevivência e passaram a seguir
             líderes religiosos que prometiam justiça divina e a construção de um
@@ -103,26 +88,43 @@ function FascismoItaliano() {
             Canudos (1896–1897), na Bahia, por também ter sido um massacre
             promovido pelo Exército contra uma população pobre e religiosa que
             buscava apenas viver com dignidade.
+            <Curtida id="Artigo Contestado" />
+          </p>
+
+          <aside className="ima">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtjng9ySOLytyaGefmjU2i2gwKXNE7amIrg&s" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Contestado_tropa_Ex%C3%A9rcito.jpg" />
+          </aside>
+        </section>
+
+        <section className="c2">
+          <aside className="ima">
+            <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
+          </aside>
+          <p className="t1">
+           <h2>Informações da API</h2>
+           <Curtida id="Wikipedia Contestado"/>
           </p>
         </section>
 
         <article>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/wDqxAtqnuiM?si=DtLoF2-7UtD2vzTj"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <Curtida id="Video Contestado"/>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wDqxAtqnuiM?si=DtLoF2-7UtD2vzTj"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <Curtida id="Video Contestado" />
         </article>
       </section>
       <Footer />
-    </div>
+    </>
   );
 }
 
-export default FascismoItaliano;
+export default GuerraDoContestado;

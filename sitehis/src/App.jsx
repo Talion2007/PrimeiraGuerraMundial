@@ -1,6 +1,4 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/nav';
 import Home from './pages/home';
 import GuerraDoContestado from './pages/GuerraDoContestado';
 import GuerraDeCanudos from './pages/GuerraDeCanudos';

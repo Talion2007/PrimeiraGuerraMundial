@@ -69,6 +69,7 @@ function FascismoItaliano() {
             </strong>{" "}
             Esses grupos eram, em sua maioria, compostos por ex-combatentes que
             se uniram em busca de um novo rumo para o país.
+ <Curtida id="Artigo Fascismo Italiano"/>
           </p>
 
           <aside className="ima">
@@ -83,148 +84,22 @@ function FascismoItaliano() {
             <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
           </aside>
           <p className="t1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Placeat, temporibus officiis odio nisi atque
-            consequuntur. Totam odit neque explicabo rem asperiores tenetur
-            corporis dolor. Ipsa magnam ab reiciendis repudiandae nemo?Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            temporibus officiis odio nisi atque consequuntur. Totam odit neque
-            explicabo rem asperiores tenetur corporis dolor. Ipsa magnam ab
-            reiciendis repudiandae nemo?
+            <h2>Informações da API</h2>
+            <Curtida id="Wikipedia Fascismo Italiano" />
           </p>
         </section>
+
+        <article>
         <iframe
-          src="https://www.youtube.com/embed/F8Bq2M-92TE?si=ST-Zk4dlMwMA-HJb"
-        ></iframe>
+       src="https://www.youtube.com/embed/2MMKqI9qzXU?si=mBorkdaINLNqCMu6"
+       title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       referrerpolicy="strict-origin-when-cross-origin"
+       allowfullscreen
+       ></iframe>
+                   <Curtida id="Video Fascismo Italiano"/>
+       </article>
       </section>
       <Footer />
     </div>

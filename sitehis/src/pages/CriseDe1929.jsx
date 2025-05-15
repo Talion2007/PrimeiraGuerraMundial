@@ -78,6 +78,7 @@ function FascismoItaliano() {
             metade. Os salários médios pagos na indústria também caíram cerca de
             50%. Milhares de empresas e bancos faliram, e milhões de pessoas
             perderam tudo o que tinham de uma hora para outra.
+            <Curtida id="Artigo Crise de 1929"/>
           </p>
 
           <aside className="ima">
@@ -92,9 +93,12 @@ function FascismoItaliano() {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXhI99S50xi8_7SelGhTMeRcV-jkCeenghg&s" />
           </aside>
           <p className="t1">
-           TEXTO DO API
+           <h2>Informações da API</h2>
+            <Curtida id="Wikipedia Crise de 1929" />
           </p>
         </section>
+
+        <article>
         <iframe
           src="https://www.youtube.com/embed/T7SVL_0jL1U?si=81hVG1MheO9EMfIr"
           title="YouTube video player"
@@ -103,6 +107,8 @@ function FascismoItaliano() {
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        <Curtida id="Video Crise de 1929" />
+        </article>
       </section>
       <Footer />
     </div>
