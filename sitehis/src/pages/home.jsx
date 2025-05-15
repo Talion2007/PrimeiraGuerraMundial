@@ -23,6 +23,15 @@ function Home() {
             <p>---</p>
             <Curtida id="Artigo Contestado"/>
             <p>---</p>
+            <Curtida id="Video Contestado"/>
+            <p>---</p>
+            <Curtida id="Wikipedia Contestado"/>
+            <p>---</p>
+            <Curtida id="Artigo Primeira Guerra"/>
+            <p>---</p>
+            <Curtida id="Video Primeira Guerra"/>
+            <p>---</p>
+            <Curtida id="Wikipedia Primeira Guerra"/>
 
       <Footer/>
         </div>
