@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/curtida.css'; // Importando o CSS para estilização
 
 
 function Curtida(props) {
@@ -19,9 +20,9 @@ function Curtida(props) {
         <span
           key={i}
           onClick={() => handleClick(i)}
-          style={{ cursor: 'pointer', color: i <= avaliacao ? 'gold' : 'gray', fontSize: '2vw' }}
+          style={{ cursor: 'pointer', color: i <= avaliacao ? 'gold' : 'gray', fontSize: '1.5em'}}
         >
-        ⁜
+      ⚜
         </span>
       );
     }
@@ -29,9 +30,11 @@ function Curtida(props) {
   };
 
   return (
-    <div>
+    <div className='avaliaçãoEstrelas'>
+      <p>Avalie o {props.id}: </p>
+      <p>
       {renderEstrelas()}
-      <p>Você deu {avaliacao} estrelas.</p>
+      </p>
     </div>
   );
 }

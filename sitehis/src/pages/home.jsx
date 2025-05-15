@@ -15,9 +15,15 @@ function Home() {
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores veniam laboriosam, tenetur consequatur, architecto sed error odit odio omnis distinctio optio quos numquam cumque consectetur pariatur qui saepe? Consectetur, esse?
                 </p>
             </section>
-            <Curtida id="Curtida1"/>
+            <Curtida id="Artigo Canudos"/>
             <p>---</p>
-            <Curtida id="Curtida2"/>
+            <Curtida id="Video Canudos"/>
+            <p>---</p>
+            <Curtida id="Wikipedia Canudos"/>
+            <p>---</p>
+            <Curtida id="Artigo Contestado"/>
+            <p>---</p>
+
       <Footer/>
         </div>
     );

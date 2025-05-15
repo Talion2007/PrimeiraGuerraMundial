@@ -4,16 +4,16 @@ import { useState } from "react";
 import "../styles/page.css";
 
 function Curtidas() {
-  const [avaliacao11 , setAvaliacao11] = useState(() => {
-    const curtidasalva = localStorage.getItem("Curtida1");
-    return curtidasalva ? JSON.parse(curtidasalva) : 0;
-  });
-  const [avaliacao12 , setAvaliacao12] = useState(() => {
-    const curtidasalva = localStorage.getItem("Curtida2");
-    return curtidasalva ? JSON.parse(curtidasalva) : 0;
-  });
+  const avaliacao11 = localStorage.getItem("Curtida11") || 0;
+  const avaliacao12 = localStorage.getItem("Curtida12") || 0;
+  const avaliacao13 = localStorage.getItem("Curtida13") || 0;
+  
+  const avaliacao21 = localStorage.getItem("Curtida21") || 0;
+  const avaliacao22 = localStorage.getItem("Curtida22") || 0;
+  const avaliacao23 = localStorage.getItem("Curtida23") || 0;
 
-  const Media = (avaliacao11 + avaliacao12) / 2;
+  const mediaCanudos = (avaliacao11 + avaliacao12 + avaliacao13) / 3;
+  const mediaContestado = (avaliacao21 + avaliacao22 + avaliacao23) / 3;
 
   return (
     <div>
