@@ -16,14 +16,21 @@ function Tema() {
       setTemEscuro(false);
       localStorage.setItem("tema", false);
     }
-
-    
-    document.body.classList.toggle("dark-mode", !temEscuro);
-    document.body.classList.toggle("dark-nav", !temEscuro);
-    document.body.classList.toggle("dark-header", !temEscuro);
-    document.body.classList.toggle("dark-home", !temEscuro);
-    document.body.classList.toggle("dark-page", !temEscuro);
   };
+
+  if (temEscuro == true) {
+    document.body.classList.add("dark-mode");
+    document.body.classList.add("dark-nav");
+    document.body.classList.add("dark-header");
+    document.body.classList.add("dark-home");
+    document.body.classList.add("dark-page");
+  } else {
+    document.body.classList.remove("dark-mode");
+    document.body.classList.remove("dark-nav");
+    document.body.classList.remove("dark-header");
+    document.body.classList.remove("dark-home");
+    document.body.classList.remove("dark-page");
+  }
 
   return (
     <button onClick={alternarTema}>

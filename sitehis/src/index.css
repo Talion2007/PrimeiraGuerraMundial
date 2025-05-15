@@ -3,13 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  padding: 0%;
-  margin: 0%;
-
-  max-width: 100vw;
-  width: 100vw;
-  min-height: 100vh;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #FAF0E6;
@@ -19,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 a {
   font-weight: 500;
@@ -30,12 +24,7 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  padding: 0%;
-  display: flex;
   place-items: center;
-  max-width: 100vw;
-  min-height: 100vh;
 }
 
 h1 {
