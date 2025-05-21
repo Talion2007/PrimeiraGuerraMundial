@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import imageG from "../assets/grupo.jpg";
 import "../styles/cards.css";
 
 function Cards() {
@@ -9,6 +10,7 @@ function Cards() {
         { id: 4, nome: "Revolução Russa", conteudo: "Foi um conjunto de eventos que levaram à queda do Império Russo e à ascensão do regime comunista.", img: "https://upload.wikimedia.org/wikipedia/commons/7/79/Armed_soldiers_carry_a_banner_reading_%27Communism%27%2C_Nikolskaya_street%2C_Moscow%2C_October_1917.jpg", link: "/revolucao-russa" },
         { id: 5, nome: "Fascimso Italiano", conteudo: "Foi um movimento político autoritário que surgiu na Itália sob a liderança de Benito Mussolini.", img: "https://humanidades.com/wp-content/uploads/2023/03/3-Fascismo-italiano.jpg", link: "/fascismo-italiano" },
         { id: 6, nome: "Crise de 1929", conteudo: "Foi uma crise econômica global que começou com a queda da Bolsa de Valores de Nova York em 1929.", img: "https://investidorsardinha.r7.com/wp-content/uploads/2020/08/crise-de-1929-a-grande-depressao-economica.jpg", link: "/crise-de-1929" },
+        { id: 7, nome: "Sobre Nós", conteudo: "Grupo de cinco cabeças (e muitas ideias), cada um com seu jeito único, mas juntos formamos um time que se completa.", img: imageG, link: "/sobre-nos" }
     ];
 
     return (
