@@ -11,8 +11,8 @@ function FascismoItaliano() {
       <Header titulo="Fascismo Italiano" />
 
       <section className="bloco">
-        <section className="c1">
-          <p className="t1">
+        <section className="container">
+          <p className="texto">
             <h2>Artigo Fascismo Italiano</h2>
             O fascismo na Itália foi um governo conservador e extremista que
             assumiu o poder nesse país, por meio de Benito Mussolini, em 1922,
@@ -66,7 +66,7 @@ function FascismoItaliano() {
             <Curtida id="Artigo Fascismo Italiano" />
           </p>
 
-          <aside className="ima">
+          <aside>
             <img src="https://humanidades.com/wp-content/uploads/2023/03/3-Fascismo-italiano.jpg" />
             <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/benito-mussolini-ao-lado-hitler-foi-grande-lider-fascismo-italiano-movimento-politico-surgido-em-1919-5bc6344f74913.jpg" />
             <img src="https://www.politize.com.br/wp-content/uploads/2024/07/fascismo-entenda-o-conceito.jpg" />
@@ -74,11 +74,11 @@ function FascismoItaliano() {
           </aside>
         </section>
 
-        <section className="c2">
-          <aside className="ima">
+        <section className="container">
+          <aside>
             <WikipediaImg tema="fascismo italiano" />
           </aside>
-          <p className="t1">
+          <p className="texto">
             <h2>Informações da API</h2>
             <Wikipedia tema="fascismo italiano" />
             <Curtida id="Wikipedia Fascismo Italiano" />
@@ -94,7 +94,9 @@ function FascismoItaliano() {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <p className="texto">
           <Curtida id="Video Fascismo Italiano" />
+          </p>
         </article>
       </section>
       <Footer />

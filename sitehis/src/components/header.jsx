@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "../components/nav"
-import '../styles/header.css';
+import '../styles/header-footer.css';
 import Logo from '../assets/logogruposem.png';
 function Header(props) {
     return (

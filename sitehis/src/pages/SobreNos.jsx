@@ -12,7 +12,8 @@ function SobreNos() {
 
       <section className="bloco">
       <img src={imageG} className="imagemGrupo" />
-        <p>
+        <p className="texto"> 
+          <h2>Sobre Nós</h2>
           Somos um grupo de cinco cabeças (e muitas ideias), cada um com seu
           jeito único, mas juntos formamos um time que se completa — às vezes no
           caos, mas sempre com criatividade e bom humor. Felipe é o nosso líder

@@ -12,8 +12,8 @@ function GuerraDeCanudos() {
 
       <section className="bloco">
 
-        <section className="c1">
-          <p className="t1">
+        <section className="container">
+          <p className="texto">
             <h2>Artigo Guerra de Canudos</h2>
             A foi um dos conflitos mais sangrentos da história do Brasil e ocorreu entre os anos de , no interior do estado da . Esse confronto envolveu o e os habitantes do povoado de , uma comunidade formada majoritariamente por pessoas pobres, sertanejos, ex-escravizados, indígenas e pequenos agricultores que viviam à margem da sociedade da época. O povoado foi fundado por , um líder religioso carismático que percorreu o sertão nordestino pregando contra as injustiças sociais, a exploração dos pobres, os altos impostos e também fazendo críticas à recém-instaurada , proclamada em 1889. Conselheiro defendia valores tradicionais, religiosos e monárquicos, e acreditava que a República traria mais miséria ao povo.
             Por causa de suas ideias e da grande quantidade de seguidores que passou a atrair, Antônio Conselheiro foi visto com desconfiança pelas autoridades. e chegou a reunir cerca de , tornando-se uma espécie de comunidade autônoma, com um sistema próprio de organização, distribuição de alimentos e vida em comum. Esse crescimento chamou a atenção do governo republicano, que passou a considerar o povoado uma ameaça à ordem estabelecida. A imprensa da época também ajudou a criar uma imagem negativa de Canudos, espalhando boatos de que o grupo queria restaurar a monarquia e desafiar o poder da República.
@@ -23,7 +23,7 @@ function GuerraDeCanudos() {
             <Curtida id="Artigo Canudos" />
           </p>
 
-          <aside className="ima">
+          <aside>
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/02/guerra-dos-canudos.jpg" />
             <img src="https://www.pstu.org.br/wp-content/uploads/2019/08/canudos-bahia.jpg" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbqkC_HNjGrjejwIf31xPYfBTJHk1pRluqg&s" />
@@ -32,11 +32,11 @@ function GuerraDeCanudos() {
 
         </section>
 
-        <section className="c2">
-          <aside className="ima">
+        <section className="container">
+          <aside>
             <WikipediaImg tema="Guerra de Canudos" />
           </aside>
-          <p className="t1">
+          <p className="texto">
             <h2>Informações da API</h2>
             <Wikipedia tema="Guerra de Canudos" />
             <Curtida id="Wikipedia Canudos" />
@@ -45,7 +45,9 @@ function GuerraDeCanudos() {
 
         <article>
           <iframe width="960" height="515" src="https://www.youtube.com/embed/69MTadaKjWk?si=JLwKETvXsWSF-fHv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <Curtida id="Video Canudos" />
+          <p className="texto">
+            <Curtida id="Video Canudos" />
+          </p>
         </article>
 
         <Footer />

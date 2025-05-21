@@ -11,8 +11,8 @@ function PrimeiraGuerraMundial() {
       <Header titulo="Primeira Guerra Mundial" />
 
       <section className="bloco">
-        <section className="c1">
-          <p className="t1">
+        <section className="container">
+          <p className="texto">
             <h2>Artigo Primeira Guerra Mundial</h2>
             A Primeira Guerra Mundial, também conhecida como Grande Guerra, foi
             um dos conflitos mais devastadores da história da humanidade,
@@ -88,7 +88,7 @@ function PrimeiraGuerraMundial() {
             <Curtida id="Artigo Primeira Guerra" />
           </p>
 
-          <aside className="ima">
+          <aside>
             <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
             <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
@@ -96,11 +96,11 @@ function PrimeiraGuerraMundial() {
           </aside>
         </section>
 
-        <section className="c2">
-          <aside className="ima">
+        <section className="container">
+          <aside>
             <WikipediaImg tema="Primeira Guerra Mundial" />
           </aside>
-          <p className="t1">
+          <p className="texto">
             <h2>Informações da API</h2>
             <Wikipedia tema="Primeira Guerra Mundial" />
             <Curtida id="Wikipedia Primeira Guerra" />
@@ -118,7 +118,9 @@ function PrimeiraGuerraMundial() {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <p className="texto">
           <Curtida id="Video Primeira Guerra" />
+          </p>
         </article>
       </section>
       <Footer />

@@ -1,7 +1,8 @@
 import React from 'react';
-import '../styles/header.css'
-import Logo from '../assets/logogruposem.png';
 import Tema from './tema';
+import Logo from '../assets/logogruposem.png';
+import '../styles/header-footer.css';
+
 function Footer() {
     return (
         <footer>

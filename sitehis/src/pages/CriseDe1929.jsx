@@ -11,8 +11,8 @@ function FascismoItaliano() {
       <Header titulo="Crise de 1929" />
 
       <section className="bloco">
-        <section className="c1">
-          <p className="t1">
+        <section className="container">
+          <p className="texto">
             <h2>Artigo Crise de 1929</h2>
             Antes mesmo da crise de 1929 acontecer, os Estados Unidos já eram
             considerados a maior economia do mundo. Mesmo antes da Primeira
@@ -84,7 +84,7 @@ function FascismoItaliano() {
             <Curtida id="Artigo Crise de 1929" />
           </p>
 
-          <aside className="ima">
+          <aside>
             <img src="https://investidorsardinha.r7.com/wp-content/uploads/2020/08/crise-de-1929-a-grande-depressao-economica.jpg" />
             <img src="https://static.historiadomundo.com.br/2023/09/o-mais-alto-padrao-de-vida-do-mundo-diz-o-letreiro-contrastando-com-a-fila-de-espera-por-suprimentos-na-crise-de-1929.jpg" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_5n-62ZB1zqsAgz0mW6a1woUwJC-QvWgZg&s" />
@@ -92,11 +92,11 @@ function FascismoItaliano() {
           </aside>
         </section>
 
-        <section className="c2">
-          <aside className="ima">
+        <section className="container">
+          <aside>
             <WikipediaImg tema="Grande Depressão" />
           </aside>
-          <p className="t1">
+          <p className="texto">
             <h2>Informações da API</h2>
             <Wikipedia tema="Grande Depressão" />
             <Curtida id="Wikipedia Crise de 1929" />
@@ -112,7 +112,9 @@ function FascismoItaliano() {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <p className="texto">
           <Curtida id="Video Crise de 1929" />
+          </p>
         </article>
       </section>
       <Footer />

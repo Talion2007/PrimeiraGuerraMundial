@@ -78,7 +78,7 @@ function Home() {
           ""
         )}
         <section className="container">
-          <p>
+          <p className="texto">
           <h2>História do Século XX</h2>
             Se você curte história e quer aprender de um jeito simples, direto e
             sem enrolação, chegou ao lugar certo. Este site faz parte de um
