@@ -80,30 +80,36 @@ function Home() {
           <h2>História do Século XX</h2>
           <p>
             Se você curte história e quer aprender de um jeito simples, direto e
-            sem enrolação, chegou ao lugar certo! Este site faz parte de um
-            projeto integrado entre o SESI e o SENAI, pensado para oferecer a
-            você, estudante dessas instituições, conteúdos históricos de forma
-            leve, acessível e conectada com o que você aprende em sala de aula.
-            Aqui, o conteúdo é organizado para facilitar o seu aprendizado, com
-            explicações claras e exemplos que ajudam a conectar os temas com o
-            seu dia a dia. Dá pra acessar tudo de forma rápida, pelo celular ou
-            computador, sem complicação. Você vai encontrar páginas sobre
-            eventos que marcaram o mundo, como a Primeira Guerra Mundial, que
-            explica como aquele conflito gigantesco começou e por que ainda
-            impacta o mundo hoje. Também tem a Guerra de Canudos, com a história
-            de Antônio Conselheiro e a resistência no sertão baiano, e a Guerra
-            do Contestado, que aconteceu no sul do Brasil e misturou disputa por
-            terras, fé e política. Além disso, tem conteúdos sobre o Fascismo
-            Italiano, mostrando como Mussolini chegou ao poder, e sobre a
-            Revolução Russa, que mudou totalmente o sistema político daquele
-            país. E claro, não podia faltar a Crise de 1929, quando a Bolsa de
-            Nova York quebrou e gerou uma crise econômica global. Ah, e ainda
-            tem a Página de Curtidas, onde dá pra ver os conteúdos que mais
-            bombam entre os alunos, pra você ficar por dentro do que a galera tá
-            acessando.
+            sem enrolação, chegou ao lugar certo. Este site faz parte de um
+            projeto integrado entre o SESI e o SENAI, criado especialmente para
+            oferecer aos estudantes dessas instituições conteúdos históricos de
+            forma leve, acessível e conectada com o que é aprendido em sala de
+            aula. Tudo foi pensado para facilitar o seu aprendizado, com
+            explicações claras, exemplos práticos e uma linguagem próxima da sua
+            realidade. E para garantir uma experiência moderna, rápida e
+            funcional, utilizamos tecnologias como React na construção da
+            interface, APIs para integrar os conteúdos de forma dinâmica e
+            atualizada, além de CSS para deixar tudo visualmente agradável,
+            responsivo e adaptado a diferentes dispositivos, seja no celular ou
+            no computador. No site, você encontra páginas sobre eventos que
+            marcaram o mundo, como a Primeira Guerra Mundial, explicando como o
+            conflito começou e por que seus efeitos ainda repercutem hoje.
+            Também estão disponíveis conteúdos sobre a Guerra de Canudos, com a
+            história de Antônio Conselheiro e a resistência no sertão baiano, e
+            sobre a Guerra do Contestado, que ocorreu no sul do Brasil e
+            envolveu disputas por terra, fé e política. Há ainda temas como o
+            Fascismo Italiano, mostrando a ascensão de Mussolini ao poder, e a
+            Revolução Russa, que transformou completamente o sistema político do
+            país. E claro, não poderia faltar a Crise de 1929, quando o colapso
+            da Bolsa de Nova York desencadeou uma crise econômica mundial. Para
+            completar, criamos a Página de Curtidas, onde é possível acompanhar
+            os conteúdos mais acessados pelos alunos e descobrir o que está
+            fazendo sucesso entre a galera. Tudo isso reunido em um ambiente
+            digital pensado para tornar o aprendizado de história mais
+            interessante, intuitivo e conectado com a tecnologia.
           </p>
         </article>
-        <br/>
+        <br />
         <Cards />
       </section>
       <Footer />
