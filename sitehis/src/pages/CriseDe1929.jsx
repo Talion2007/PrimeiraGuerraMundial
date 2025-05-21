@@ -2,12 +2,10 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
 import Wikipedia from "../components/wiki";
+import WikipediaImg from "../components/wikiImg"
 import "../styles/page.css";
+
 function FascismoItaliano() {
-
-  const imagemAPI = localStorage.getItem("Imagem Crise de 1929");
-  const imagemJson = JSON.parse(imagemAPI);
-
   return (
     <div>
       <Header titulo="Crise de 1929" />
@@ -96,11 +94,11 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_5n-62ZB1zqsAgz0mW6a1woUwJC-QvWgZg&s" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXhI99S50xi8_7SelGhTMeRcV-jkCeenghg&s" />
-            <img src={imagemJson} alt="Imagem da API" />
+            <WikipediaImg tema="Grande Depressão" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
-            <Wikipedia tema="Grande Depressão" storage="Imagem Crise de 1929" />
+            <Wikipedia tema="Grande Depressão" />
             <Curtida id="Wikipedia Crise de 1929" />
           </p>
         </section>

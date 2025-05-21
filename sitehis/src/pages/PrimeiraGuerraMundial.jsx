@@ -2,12 +2,10 @@ import Header from '../components/header';
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
 import Wikipedia from '../components/wiki';
+import WikipediaImg from "../components/wikiImg";
 import "../styles/page.css";
+
 function PrimeiraGuerraMundial() {
-
-  const imagemAPI = localStorage.getItem("Imagem Primeira Guerra");
-  const imagemJson = JSON.parse(imagemAPI);
-
   return (
     <>
       <Header titulo="Primeira Guerra Mundial" />
@@ -100,11 +98,11 @@ function PrimeiraGuerraMundial() {
           <aside className="ima">
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
             <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
-            <img src={imagemJson} alt="Imagem da API" />
+            <WikipediaImg tema="Primeira Guerra Mundial" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
-            <Wikipedia tema="Primeira Guerra Mundial" storage="Imagem Primeira Guerra" />
+            <Wikipedia tema="Primeira Guerra Mundial" />
             <Curtida id="Wikipedia Primeira Guerra" />
           </p>
         </section>

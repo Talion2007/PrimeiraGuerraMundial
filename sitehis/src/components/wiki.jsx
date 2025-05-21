@@ -1,51 +1,38 @@
 import { useEffect, useState } from "react";
 
 function Wikipedia(props) {
+  const [dados, setDados] = useState({});
 
-    const [dados, setDados] = useState({});
-    const [imagem, setImagem] = useState(() => {
-        const imagemSalva = localStorage.getItem(props.storage);
-        return imagemSalva ? JSON.parse(imagemSalva) : '';
-    });
+  useEffect(() => {
+    async function PegarInformações() {
+      try {
+        const codificado = encodeURIComponent(props.tema.replace(/ /g, '_'));
+        const URL = `https://pt.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=${codificado}&exlimit=1&explaintext=1&origin=*`;
 
-    useEffect(() => {
-        async function PegarInformações() {
+        console.log(URL);
 
-            try {
-                const codificado = encodeURIComponent(props.tema.replace(/ /g, '_'))
-                const URL = `https://pt.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|pageimages&titles=${codificado}&exlimit=1&explaintext=1&piprop=thumbnail&pithumbsize=500&origin=*`;
+        const resposta = await fetch(URL);
+        const data = await resposta.json();
 
-                console.log(URL)
+        const paginaID = Object.keys(data.query.pages)[0];
+        const conteudo = data.query.pages[paginaID];
 
-                const resposta = await fetch(URL)
-                const data = await resposta.json()
+        const primeiroParagrafo = conteudo.extract?.split('\n\n')[0];
 
-                const paginaID = Object.keys(data.query.pages)[0];
-                    const conteudo = data.query.pages[paginaID];
-
-                setDados(conteudo)
-                setImagem(conteudo.thumbnail.source);
-
-                const imagemJson = JSON.stringify(conteudo.thumbnail.source);
-                console.log(imagemJson);
-                localStorage.setItem(props.storage, imagemJson);
-            }
-
-        catch (error) {
-            console.error(`Erro ao buscar informações: ${error}`);
-        }
+        setDados({ extract: primeiroParagrafo });
+      } catch (error) {
+        console.error(`Erro ao buscar informações: ${error}`);
+      }
     }
 
     PegarInformações();
+  }, [props.tema]);
 
-    }, [props.theme]);
-
-
-return (
+  return (
     <>
-    <p style={{ whiteSpace: 'pre-wrap' }}>{dados.extract}</p>
+      <p style={{ whiteSpace: 'pre-wrap' }}>{dados.extract}</p>
     </>
-)
+  );
 }
 
 export default Wikipedia;

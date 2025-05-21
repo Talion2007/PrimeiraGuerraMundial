@@ -2,13 +2,11 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
 import Wikipedia from "../components/wiki";
+import WikipediaImg from "../components/wikiImg";
 import "../styles/page.css";
+
 function RevolucaoRussa() {
-
-  const imagemAPI = localStorage.getItem("Imagem Revolução Russa");
-  const imagemJson = JSON.parse(imagemAPI);
-
-  return (
+ return (
     <>
       <Header titulo="Revolução Russa" />
 
@@ -80,11 +78,11 @@ function RevolucaoRussa() {
           <aside className="ima">
             <img src="https://ogimg.infoglobo.com.br/in/21975364-e2c-6fe/FT1086A/72528758.jpg" />
             <img src="https://assets.brasildefato.com.br/2024/09/image_processing20200201-29235-1nfnxod.jpg" />
-            <img src={imagemJson} alt="Imagem da API" />
+            <WikipediaImg tema="Guerra Civil Russa" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
-            <Wikipedia tema="Guerra Civil Russa" storage="Imagem Revolução Russa" />
+            <Wikipedia tema="Guerra Civil Russa" />
             <Curtida id="Wikipedia Revolução Russa" />
           </p>
         </section>

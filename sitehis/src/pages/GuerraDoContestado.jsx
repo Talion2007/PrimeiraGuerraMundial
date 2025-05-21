@@ -1,13 +1,12 @@
+import { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Curtida from "../components/curtida";
 import Wikipedia from "../components/wiki";
+import WikipediaImg from "../components/wikiImg";
 import "../styles/page.css";
+
 function GuerraDoContestado() {
-
-  const imagemAPI = localStorage.getItem("Imagem Guerra do Contestado");
-  const imagemJson = JSON.parse(imagemAPI);
-
   return (
     <>
       <Header titulo="Guerra do Contestado" />
@@ -106,11 +105,11 @@ function GuerraDoContestado() {
           <aside className="ima">
             <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
-            <img src={imagemJson} alt="Imagem da API" />
+            <WikipediaImg tema="Guerra do Contestado" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
-            <Wikipedia tema="Guerra do Contestado" storage="Imagem Guerra do Contestado" />
+            <Wikipedia tema="Guerra do Contestado" />
             <Curtida id="Wikipedia Contestado" />
           </p>
         </section>

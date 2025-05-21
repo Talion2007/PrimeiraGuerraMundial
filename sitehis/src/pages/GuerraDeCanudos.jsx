@@ -2,12 +2,10 @@ import Header from '../components/header';
 import Footer from "../components/footer";
 import Curtida from '../components/curtida';
 import Wikipedia from '../components/wiki';
+import WikipediaImg from "../components/wikiImg"
 import '../styles/page.css';
+
 function GuerraDeCanudos() {
-
-  const imagemAPI = localStorage.getItem("Imagem Guerra de Canudos");
-  const imagemJson = JSON.parse(imagemAPI);
-
   return (
     <>
       <Header titulo="Guerra de Canudos" />
@@ -36,11 +34,11 @@ function GuerraDeCanudos() {
           <aside className="ima">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbqkC_HNjGrjejwIf31xPYfBTJHk1pRluqg&s" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfnXnLHYDeKuTBwwO-TVhA2EBixqHqXc0tg&s" />
-            <img src={imagemJson} alt="Imagem da API" />
+            <WikipediaImg tema="Guerra de Canudos" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
-            <Wikipedia tema="Guerra de Canudos" storage="Imagem Guerra de Canudos" />
+            <Wikipedia tema="Guerra de Canudos" />
             <Curtida id="Wikipedia Canudos" />
           </p>
         </section>
