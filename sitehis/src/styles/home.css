@@ -22,6 +22,12 @@ body{
   transition: background-color 0.3s ease-in-out;
 }
 
+.bloco img:hover{
+    width: 90vw;
+  
+    border-radius: 8px;
+}
+
 .ImagemCarrocel{
     width: 50vw;
     height: 50vh;
