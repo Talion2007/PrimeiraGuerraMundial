@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/nav.css'; 
 
+
 function Navbar() {
   return (
     <nav>
@@ -14,9 +15,9 @@ function Navbar() {
         <li><Link to="/revolucao-russa">Revolução Russa</Link></li>
         <li><Link to="/fascismo-italiano">Fascismo Italiano</Link></li>
         <li><Link to="/crise-de-1929">Crise de 1929</Link></li>
-       
-        <li><Link to="/pagina-9">Sobre</Link></li>
+        <li><Link to="/sobre-nos">Sobre</Link></li>
         <li><Link to="/curtidas">Curtidas</Link></li>
+      
       </ul>
     </nav>
   );
