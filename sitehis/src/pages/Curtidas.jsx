@@ -73,6 +73,30 @@ function Curtidas() {
           <h3>Wikipedia Contestado: {wikipediaContestado}</h3>
           <h3>Video Contestado: {videoContestado}</h3>
         </div>
+        <div className="ranking">
+          <h2>Primeira Guerra</h2>
+          <h3>Artigo Primeira Guerra: Nota {artigoPrimeiraGuerra}</h3>
+          <h3>Wikipedia Primeira Guerra: {wikipediaPrimeiraGuerra}</h3>
+          <h3>Video Primeira Guerra: {videoPrimeiraGuerra}</h3>
+          </div>
+          <div className="ranking">
+          <h2>Revolução Russa</h2>
+          <h3>Artigo Revolução Russa: Nota {artigoRevolucaoRussa}</h3>
+          <h3>Wikipedia Revolução Russa: {wikipediaRevolucaoRussa}</h3>
+          <h3>Video Revolução Russa: {videoRevolucaoRussa}</h3>
+          </div>
+          <div className="ranking">
+          <h2>Fascismo Italiano</h2>
+          <h3>Artigo Fascismo Italiano: Nota {artigoFascismoItaliano}</h3>
+          <h3>Wikipedia Fascismo Italiano: {wikipediaFascismoItaliano}</h3>
+          <h3>Video Fascismo Italiano: {videoFascismoItaliano}</h3>
+          </div>
+          <div className="ranking">
+          <h2>Crise de 1929</h2>
+          <h3>Artigo Crise de 1929: Nota {artigoCrise1929}</h3>
+          <h3>Wikipedia Crise de 1929: {wikipediaCrise1929}</h3>
+          <h3>Video Crise de 1929: {videoCrise1929}</h3>
+          </div>
       </section>
       <Footer />
     </>
