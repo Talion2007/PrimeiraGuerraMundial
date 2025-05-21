@@ -1,26 +1,63 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/nav.css'; 
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import "../styles/nav.css"
+function NavBar() {
+  const [navbar, setNavbar] = useState(false);
+  const [widthSize, setWidthSize] = useState(window.screen.width)
+
+  useEffect(() => {
+    const Interval = setInterval(() => {
+      setWidthSize(window.screen.width)
+      if (widthSize < 480) {
+        setNavbar(true)
+      } else {
+        setNavbar(false)
+      }
+    })
+
+    return () => clearInterval(Interval)
+  }, [widthSize])
 
 
-function Navbar() {
   return (
     <nav>
-      
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/guerra-do-contestado">Guerra do Contestado</Link></li>
-        <li><Link to="/guerra-de-canudos">Guerra de Canudos</Link></li>
-        <li><Link to="/primeira-guerra-mundial">Primeira Guerra Mundial</Link></li>
-        <li><Link to="/revolucao-russa">Revolução Russa</Link></li>
-        <li><Link to="/fascismo-italiano">Fascismo Italiano</Link></li>
-        <li><Link to="/crise-de-1929">Crise de 1929</Link></li>
-        <li><Link to="/sobre-nos">Sobre</Link></li>
-        <li><Link to="/curtidas">Curtidas</Link></li>
-      
-      </ul>
+      {navbar ? <>
+        <input type='checkbox' id="hamburger-trigger" />
+        <label for="hamburger-trigger">
+          <svg className="svg" id="on" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+
+          <svg id="off" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+
+        </label> <ul id="options">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/guerra-do-contestado">Guerra do Contestado</Link></li>
+          <li><Link to="/guerra-de-canudos">Guerra de Canudos</Link></li>
+          <li><Link to="/primeira-guerra-mundial">Primeira Guerra Mundial</Link></li>
+          <li><Link to="/revolucao-russa">Revolução Russa</Link></li>
+          <li><Link to="/fascismo-italiano">Fascismo Italiano</Link></li>
+          <li><Link to="/crise-de-1929">Crise de 1929</Link></li>
+          <li><Link to="/sobre-nos">Sobre</Link></li>
+          <li><Link to="/curtidas">Curtidas</Link></li>
+        </ul></>
+        :
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/guerra-do-contestado">Guerra do Contestado</Link></li>
+          <li><Link to="/guerra-de-canudos">Guerra de Canudos</Link></li>
+          <li><Link to="/primeira-guerra-mundial">Primeira Guerra Mundial</Link></li>
+          <li><Link to="/revolucao-russa">Revolução Russa</Link></li>
+          <li><Link to="/fascismo-italiano">Fascismo Italiano</Link></li>
+          <li><Link to="/crise-de-1929">Crise de 1929</Link></li>
+          <li><Link to="/sobre-nos">Sobre</Link></li>
+          <li><Link to="/curtidas">Curtidas</Link></li>
+        </ul>}
+
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default NavBar;
