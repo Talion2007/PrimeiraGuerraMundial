@@ -1,15 +1,21 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
+import Wikipedia from "../components/wiki";
 import "../styles/page.css";
 function FascismoItaliano() {
+
+  const imagemAPI = localStorage.getItem("Imagem Crise de 1929");
+  const imagemJson = JSON.parse(imagemAPI);
+
   return (
     <div>
-      <Header titulo="Crise de 1929"/>
+      <Header titulo="Crise de 1929" />
 
       <section className="bloco">
         <section className="c1">
           <p className="t1">
+            <h2>Artigo Crise de 1929</h2>
             Antes mesmo da crise de 1929 acontecer, os Estados Unidos já eram
             considerados a maior economia do mundo. Mesmo antes da Primeira
             Guerra Mundial, o país já mostrava sinais claros de sua força
@@ -77,7 +83,7 @@ function FascismoItaliano() {
             metade. Os salários médios pagos na indústria também caíram cerca de
             50%. Milhares de empresas e bancos faliram, e milhões de pessoas
             perderam tudo o que tinham de uma hora para outra.
-            <Curtida id="Artigo Crise de 1929"/>
+            <Curtida id="Artigo Crise de 1929" />
           </p>
 
           <aside className="ima">
@@ -90,23 +96,25 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_5n-62ZB1zqsAgz0mW6a1woUwJC-QvWgZg&s" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXhI99S50xi8_7SelGhTMeRcV-jkCeenghg&s" />
+            <img src={imagemJson} alt="Imagem da API" />
           </aside>
           <p className="t1">
-           <h2>Informações da API</h2>
+            <h2>Informações da API</h2>
+            <Wikipedia tema="Grande Depressão" storage="Imagem Crise de 1929" />
             <Curtida id="Wikipedia Crise de 1929" />
           </p>
         </section>
 
         <article>
-        <iframe
-          src="https://www.youtube.com/embed/T7SVL_0jL1U?si=81hVG1MheO9EMfIr"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <Curtida id="Video Crise de 1929" />
+          <iframe
+            src="https://www.youtube.com/embed/T7SVL_0jL1U?si=81hVG1MheO9EMfIr"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <Curtida id="Video Crise de 1929" />
         </article>
       </section>
       <Footer />

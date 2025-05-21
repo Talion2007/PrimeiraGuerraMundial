@@ -1,19 +1,24 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
+import Wikipedia from "../components/wiki";
 import "../styles/page.css";
 function FascismoItaliano() {
+
+  const imagemAPI = localStorage.getItem("Imagem Fascismo Italiano");
+  const imagemJson = JSON.parse(imagemAPI);
+
   return (
     <div>
-      <Header titulo="Fascismo Italiano"/>
+      <Header titulo="Fascismo Italiano" />
 
       <section className="bloco">
         <section className="c1">
           <p className="t1">
+            <h2>Fascismo Italiano</h2>
             O fascismo na Itália foi um governo conservador e extremista que
             assumiu o poder nesse país, por meio de Benito Mussolini, em 1922,
             acabando, oficialmente, em 1943.
-            <br /> <br />
             Baseado em um governo conservador, radical e de extrema-direita, o
             fascismo surgiu, em 1919, como uma organização paramilitar,
             transformando-se em partido em 1921. <br /> <br /> Isso tudo
@@ -68,7 +73,7 @@ function FascismoItaliano() {
             </strong>{" "}
             Esses grupos eram, em sua maioria, compostos por ex-combatentes que
             se uniram em busca de um novo rumo para o país.
- <Curtida id="Artigo Fascismo Italiano"/>
+            <Curtida id="Artigo Fascismo Italiano" />
           </p>
 
           <aside className="ima">
@@ -81,24 +86,28 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://www.politize.com.br/wp-content/uploads/2024/07/fascismo-entenda-o-conceito.jpg" />
             <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
+            <img src={imagemJson} alt="Imagem da API" />
           </aside>
           <p className="t1">
             <h2>Informações da API</h2>
+            <Wikipedia
+              tema="fascismo italiano"
+              storage="Imagem Fascismo Italiano" />
             <Curtida id="Wikipedia Fascismo Italiano" />
           </p>
         </section>
 
         <article>
-        <iframe
-       src="https://www.youtube.com/embed/2MMKqI9qzXU?si=mBorkdaINLNqCMu6"
-       title="YouTube video player"
-       frameborder="0"
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       referrerpolicy="strict-origin-when-cross-origin"
-       allowfullscreen
-       ></iframe>
-                   <Curtida id="Video Fascismo Italiano"/>
-       </article>
+          <iframe
+            src="https://www.youtube.com/embed/2MMKqI9qzXU?si=mBorkdaINLNqCMu6"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <Curtida id="Video Fascismo Italiano" />
+        </article>
       </section>
       <Footer />
     </div>

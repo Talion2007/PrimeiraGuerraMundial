@@ -1,16 +1,21 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
-
+import Wikipedia from "../components/wiki";
 import "../styles/page.css";
 function RevolucaoRussa() {
+
+  const imagemAPI = localStorage.getItem("Imagem Revolução Russa");
+  const imagemJson = JSON.parse(imagemAPI);
+
   return (
     <>
-      <Header titulo="Revolução Russa"/>
+      <Header titulo="Revolução Russa" />
 
       <section className="bloco">
         <section className="c1">
-      <p className="t1">
+          <p className="t1">
+            <h2>Artigo Revolução Russa</h2>
             A Revolução Russa foi um dos acontecimentos mais marcantes e
             transformadores do século XX. Ela ocorreu no ano de 1917 e resultou
             na queda da monarquia czarista que governava a Rússia há séculos,
@@ -62,7 +67,7 @@ function RevolucaoRussa() {
             evento local, mas um divisor de águas na história mundial, que
             alterou radicalmente a política, a economia e as relações
             internacionais nos anos que se seguiram.
-            <Curtida id="Artigo Revolução Russa"/>
+            <Curtida id="Artigo Revolução Russa" />
           </p>
 
           <aside className="ima">
@@ -75,26 +80,28 @@ function RevolucaoRussa() {
           <aside className="ima">
             <img src="https://ogimg.infoglobo.com.br/in/21975364-e2c-6fe/FT1086A/72528758.jpg" />
             <img src="https://assets.brasildefato.com.br/2024/09/image_processing20200201-29235-1nfnxod.jpg" />
+            <img src={imagemJson} alt="Imagem da API" />
           </aside>
           <p className="t1">
-           <h2>Informações da API</h2>
-            <Curtida id="Wikipedia Revolução Russa"/>
+            <h2>Informações da API</h2>
+            <Wikipedia tema="Guerra Civil Russa" storage="Imagem Revolução Russa" />
+            <Curtida id="Wikipedia Revolução Russa" />
           </p>
         </section>
 
-<article>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/r_1xj0Pyi-8?si=Ff8GTS9Yq96SJK11"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-        <Curtida id="Video Revolução Russa"/>
-      </article>
+        <article>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/r_1xj0Pyi-8?si=Ff8GTS9Yq96SJK11"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <Curtida id="Video Revolução Russa" />
+        </article>
       </section>
       <Footer />
     </>

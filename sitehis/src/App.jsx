@@ -21,7 +21,7 @@ function App() {
         <Route path="/revolucao-russa" element={<RevolucaoRussa />} />
         <Route path="/fascismo-italiano" element={<FascismoItaliano />} />
         <Route path="/crise-de-1929" element={<CriseDe1929 />} />
-        <Route path="/pagina-9" element={<Pagina9 />} />
+        <Route path="/sobre-nos" element={<Pagina9 />} />
         <Route path="/curtidas" element={<Curtidas />} />
       </Routes>
     </Router>
