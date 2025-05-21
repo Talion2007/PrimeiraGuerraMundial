@@ -77,7 +77,18 @@ function Home() {
         )}
         <article className="texto">
           <h1>História do Século XX</h1>
-          <p>O século XX foi um caldeirão de eventos que moldaram profundamente a sociedade global. Desde as trincheiras da Primeira Guerra Mundial e a ascensão da Revolução Russa, que transformaram a geopolítica, até os dramas internos do Brasil, como as Guerras de Canudos e do Contestado, que expuseram as feridas sociais do país. A devastadora Crise de 1929 abalou economias mundiais, criando um vácuo que seria preenchido pela ascensão de ideologias extremistas como o Fascismo. Este período turbulento não apenas redefiniu fronteiras e sistemas políticos, mas também lançou as bases para os desafios e as inovações que viriam nas décadas seguintes.</p>
+          <p>
+            O século XX foi um caldeirão de eventos que moldaram profundamente a
+            sociedade global. Desde as trincheiras da Primeira Guerra Mundial e
+            a ascensão da Revolução Russa, que transformaram a geopolítica, até
+            os dramas internos do Brasil, como as Guerras de Canudos e do
+            Contestado, que expuseram as feridas sociais do país. A devastadora
+            Crise de 1929 abalou economias mundiais, criando um vácuo que seria
+            preenchido pela ascensão de ideologias extremistas como o Fascismo.
+            Este período turbulento não apenas redefiniu fronteiras e sistemas
+            políticos, mas também lançou as bases para os desafios e as
+            inovações que viriam nas décadas seguintes.
+          </p>
         </article>
       </section>
       <Footer />
