@@ -1,16 +1,19 @@
 import Header from '../components/header';
 import Footer from "../components/footer";
 import Curtida from "../components/curtida";
+import Wikipedia from '../components/wiki';
+import WikipediaImg from "../components/wikiImg";
 import "../styles/page.css";
+
 function PrimeiraGuerraMundial() {
   return (
     <>
-      <Header />
+      <Header titulo="Primeira Guerra Mundial" />
 
-      <h1 className="hero">Primeira Guerra Mundial</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">
+            <h2>Artigo Primeira Guerra Mundial</h2>
             A Primeira Guerra Mundial, também conhecida como Grande Guerra, foi
             um dos conflitos mais devastadores da história da humanidade,
             ocorrendo entre os anos de 1914 e 1918. Envolvendo as principais
@@ -51,7 +54,7 @@ function PrimeiraGuerraMundial() {
             os EUA. A entrada americana trouxe novo ânimo aos Aliados e acelerou
             a derrota das Potências Centrais.
 
-             Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
+            Em 1917, os Estados Unidos entraram na guerra ao lado da Tríplice
             Entente, após ataques de submarinos alemães a navios civis e pela
             revelação do Telegrama Zimmermann, no qual a Alemanha tentava
             convencer o México a entrar em guerra contra os EUA. A entrada
@@ -95,9 +98,11 @@ function PrimeiraGuerraMundial() {
           <aside className="ima">
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
             <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
+            <WikipediaImg tema="Primeira Guerra Mundial" />
           </aside>
           <p className="t1">
-           <h2>Informações da API</h2>
+            <h2>Informações da API</h2>
+            <Wikipedia tema="Primeira Guerra Mundial" />
             <Curtida id="Wikipedia Primeira Guerra" />
           </p>
         </section>

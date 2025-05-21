@@ -1,16 +1,20 @@
+import { useEffect, useState } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Curtida from "../components/curtida";
+import Wikipedia from "../components/wiki";
+import WikipediaImg from "../components/wikiImg";
 import "../styles/page.css";
+
 function GuerraDoContestado() {
   return (
     <>
-      <Header />
+      <Header titulo="Guerra do Contestado" />
 
-      <h1 className="hero">Guerra do Contestado</h1>
       <section className="bloco">
         <section className="c1">
           <p className="t1">
+            <h2>Artigo Guerra do Contestado</h2>
             A Guerra do Contestado (1912–1916) foi um dos mais importantes e
             dramáticos conflitos armados do Brasil republicano, ocorrendo entre
             os estados de Santa Catarina e Paraná. Envolveu milhares de
@@ -44,7 +48,7 @@ function GuerraDoContestado() {
             mundo mais justo. O mais conhecido desses líderes foi José Maria de
             Santo Agostinho, um monge curandeiro que se tornou referência
             espiritual para os camponeses.
-             Esses trabalhadores, junto com os camponeses expulsos, começaram a
+            Esses trabalhadores, junto com os camponeses expulsos, começaram a
             se organizar e resistir à expulsão. Eles viam nas ações do governo e
             das empresas uma ameaça à sua sobrevivência e passaram a seguir
             líderes religiosos que prometiam justiça divina e a construção de um
@@ -101,10 +105,12 @@ function GuerraDoContestado() {
           <aside className="ima">
             <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
+            <WikipediaImg tema="Guerra do Contestado" />
           </aside>
           <p className="t1">
-           <h2>Informações da API</h2>
-           <Curtida id="Wikipedia Contestado"/>
+            <h2>Informações da API</h2>
+            <Wikipedia tema="Guerra do Contestado" />
+            <Curtida id="Wikipedia Contestado" />
           </p>
         </section>
 

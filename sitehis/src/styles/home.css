@@ -4,8 +4,6 @@ body{
     justify-content: center;
 }
 
-
-
 .homec{
     display: flex;
     flex-direction: column;
@@ -22,11 +20,21 @@ body{
     color: #2F2F2F;
     
   transition: background-color 0.3s ease-in-out;
+
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ImagemCarrocel{
     width: 50vw;
     height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    transition: 2.5s;
     border-radius: 1em;
     margin-bottom: 1em;
 }
