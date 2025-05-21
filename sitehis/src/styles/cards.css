@@ -16,6 +16,10 @@
     width: 20vw;
     height: 60vh;
     transition: 1s ease-in-out;
+
+    p{
+        font-size: medium;
+    }
 }
 
 .card img {
@@ -42,6 +46,6 @@ body.dark-mode .card:hover {
 @media screen and (max-width: 480px) {
     .card {
         width: 80vw;
-        height: 50vh;
+        height: 60vh;
     }
 }
