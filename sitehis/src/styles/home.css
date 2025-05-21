@@ -20,6 +20,13 @@ body{
     color: #2F2F2F;
     
   transition: background-color 0.3s ease-in-out;
+
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ImagemCarrocel{

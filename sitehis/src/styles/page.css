@@ -97,14 +97,13 @@ a:focus {
   transition: ease 1000ms;
 }
 
-.bloco img:hover {
-  width: 45vw;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(55, 25, 0, 0.7);
-  margin-bottom: 15px;
-  transition: ease 1000ms;
+.ima img:hover {
+  transform: scale(1.02);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px 0 rgba(90, 58, 34, 0.25), 0 1.5px 8px 0 rgba(0,0,0,0.10);
 }
+
+
 
 .ima {
   display: flex;
@@ -179,13 +178,10 @@ body.dark-page strong {
   color: #D1C0A8;
 }
 
-body.dark-page .bloco img:hover {
-  width: 45vw;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(255, 226, 202, 0.7);
-  margin-bottom: 15px;
-  transition: ease 1000ms;
+body.dark-page  img:hover {
+  transform: scale(1.02);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px 0 rgba(205, 173, 148, 0.25), 0 1.5px 8px 0 rgba(0,0,0,0.10);
 }
 
 
