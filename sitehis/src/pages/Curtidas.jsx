@@ -1,6 +1,5 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
-import { useState } from "react";
 import "../styles/page.css";
 
 
@@ -61,6 +60,19 @@ function Curtidas() {
             <h3>Nota: {media.nota}</h3>
           </div>
         ))}
+        <h2>Informações de cada pagina: </h2>
+        <div className="ranking">
+          <h2>Canudos</h2>
+          <h3>Artigo Canudos: Nota {artigoCanudos}</h3>
+          <h3>Wikipedia Canudos: {wikipediaCanudos}</h3>
+          <h3>Video Canudos: {videoCanudos}</h3>
+        </div>
+        <div className="ranking">
+          <h2>Contestado</h2>
+          <h3>Artigo Contestado: Nota {artigoContestado}</h3>
+          <h3>Wikipedia Contestado: {wikipediaContestado}</h3>
+          <h3>Video Contestado: {videoContestado}</h3>
+        </div>
       </section>
       <Footer />
     </>
