@@ -78,25 +78,28 @@ function Home() {
         <article className="texto">
           <h2>História do Século XX</h2>
           <p>
-            Se você curte história e quer entender de um jeito direto e sem
-            enrolação, tá no lugar certo! Aqui no site, você encontra várias
-            páginas com conteúdos explicados de forma simples sobre eventos que
-            mudaram o mundo. Tem a Primeira Guerra Mundial, onde você entende
-            como começou aquele conflito gigante que envolveu vários países e
-            teve impacto até hoje. Também tem a Guerra de Canudos, com a
-            história de Antônio Conselheiro e de um povo que resistiu no sertão
-            da Bahia, e a Guerra do Contestado, que rolou no sul do Brasil com
-            briga por terra, fé e política tudo junto. Além disso, dá pra
-            aprender sobre o Fascismo Italiano, como o Mussolini chegou ao poder
-            e o que esse regime significou pra Europa, e a Revolução Russa, onde
-            a galera derrubou o governo e mudou completamente o sistema
-            político. E claro, não podia faltar a Crise de 1929, quando a Bolsa
-            de Nova York quebrou e o mundo inteiro sentiu o baque com a maior
-            crise econômica da época. Ah, e tem também a Página de Curtidas,
-            onde você vê quais conteúdos a galera mais acessa e curte. Então
-            fica à vontade pra explorar, aprender no seu tempo e compartilhar
-            com quem também gosta de história. Bora entender o passado pra fazer
-            mais sentido do presente!
+            Se você curte história e quer aprender de um jeito simples, direto e
+            sem enrolação, chegou ao lugar certo! Este site faz parte de um
+            projeto integrado entre o SESI e o SENAI, pensado para oferecer a
+            você, estudante dessas instituições, conteúdos históricos de forma
+            leve, acessível e conectada com o que você aprende em sala de aula.
+            Aqui, o conteúdo é organizado para facilitar o seu aprendizado, com
+            explicações claras e exemplos que ajudam a conectar os temas com o
+            seu dia a dia. Dá pra acessar tudo de forma rápida, pelo celular ou
+            computador, sem complicação. Você vai encontrar páginas sobre
+            eventos que marcaram o mundo, como a Primeira Guerra Mundial, que
+            explica como aquele conflito gigantesco começou e por que ainda
+            impacta o mundo hoje. Também tem a Guerra de Canudos, com a história
+            de Antônio Conselheiro e a resistência no sertão baiano, e a Guerra
+            do Contestado, que aconteceu no sul do Brasil e misturou disputa por
+            terras, fé e política. Além disso, tem conteúdos sobre o Fascismo
+            Italiano, mostrando como Mussolini chegou ao poder, e sobre a
+            Revolução Russa, que mudou totalmente o sistema político daquele
+            país. E claro, não podia faltar a Crise de 1929, quando a Bolsa de
+            Nova York quebrou e gerou uma crise econômica global. Ah, e ainda
+            tem a Página de Curtidas, onde dá pra ver os conteúdos que mais
+            bombam entre os alunos, pra você ficar por dentro do que a galera tá
+            acessando.
           </p>
         </article>
       </section>
