@@ -71,13 +71,13 @@ function RevolucaoRussa() {
           <aside className="ima">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Armed_soldiers_carry_a_banner_reading_%27Communism%27%2C_Nikolskaya_street%2C_Moscow%2C_October_1917.jpg" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy0cYGq9PdXy-2AsoXNivc2Gl6Cza5AUzMnA&s" />
+            <img src="https://ogimg.infoglobo.com.br/in/21975364-e2c-6fe/FT1086A/72528758.jpg" />
+            <img src="https://assets.brasildefato.com.br/2024/09/image_processing20200201-29235-1nfnxod.jpg" />
           </aside>
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://ogimg.infoglobo.com.br/in/21975364-e2c-6fe/FT1086A/72528758.jpg" />
-            <img src="https://assets.brasildefato.com.br/2024/09/image_processing20200201-29235-1nfnxod.jpg" />
             <WikipediaImg tema="Guerra Civil Russa" />
           </aside>
           <p className="t1">

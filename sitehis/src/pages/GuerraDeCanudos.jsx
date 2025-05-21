@@ -26,14 +26,14 @@ function GuerraDeCanudos() {
           <aside className="ima">
             <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/02/guerra-dos-canudos.jpg" />
             <img src="https://www.pstu.org.br/wp-content/uploads/2019/08/canudos-bahia.jpg" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbqkC_HNjGrjejwIf31xPYfBTJHk1pRluqg&s" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfnXnLHYDeKuTBwwO-TVhA2EBixqHqXc0tg&s" />
           </aside>
 
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbqkC_HNjGrjejwIf31xPYfBTJHk1pRluqg&s" />
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfnXnLHYDeKuTBwwO-TVhA2EBixqHqXc0tg&s" />
             <WikipediaImg tema="Guerra de Canudos" />
           </aside>
           <p className="t1">

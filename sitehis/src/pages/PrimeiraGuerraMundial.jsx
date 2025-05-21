@@ -91,13 +91,13 @@ function PrimeiraGuerraMundial() {
           <aside className="ima">
             <img src="https://static.preparaenem.com/2022/01/trincheira-na-primeira-guerra-mundial.jpg" />
             <img src="https://ogimg.infoglobo.com.br/in/23223989-970-9a5/FT1500A/652/41704050_1602.1979ARQUIVOINTER1-GUERRA-MUNDIAL-1.jpg" />
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
+            <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
           </aside>
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/07/soldados-franceses-rastejando-em-seus-proprios-emaranhados-de-arame-farpado-na-batalha-de-verdun-primeira-guerra-mundial.jpg" />
-            <img src="https://www.jornalopcao.com.br/assets/2014/08/Carta-da-europa-1-620x350.jpg" />
             <WikipediaImg tema="Primeira Guerra Mundial" />
           </aside>
           <p className="t1">

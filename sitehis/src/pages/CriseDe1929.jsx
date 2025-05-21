@@ -87,13 +87,13 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://investidorsardinha.r7.com/wp-content/uploads/2020/08/crise-de-1929-a-grande-depressao-economica.jpg" />
             <img src="https://static.historiadomundo.com.br/2023/09/o-mais-alto-padrao-de-vida-do-mundo-diz-o-letreiro-contrastando-com-a-fila-de-espera-por-suprimentos-na-crise-de-1929.jpg" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_5n-62ZB1zqsAgz0mW6a1woUwJC-QvWgZg&s" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXhI99S50xi8_7SelGhTMeRcV-jkCeenghg&s" />
           </aside>
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_5n-62ZB1zqsAgz0mW6a1woUwJC-QvWgZg&s" />
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXhI99S50xi8_7SelGhTMeRcV-jkCeenghg&s" />
             <WikipediaImg tema="Grande Depressão" />
           </aside>
           <p className="t1">

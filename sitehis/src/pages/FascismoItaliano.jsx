@@ -69,13 +69,13 @@ function FascismoItaliano() {
           <aside className="ima">
             <img src="https://humanidades.com/wp-content/uploads/2023/03/3-Fascismo-italiano.jpg" />
             <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/benito-mussolini-ao-lado-hitler-foi-grande-lider-fascismo-italiano-movimento-politico-surgido-em-1919-5bc6344f74913.jpg" />
+            <img src="https://www.politize.com.br/wp-content/uploads/2024/07/fascismo-entenda-o-conceito.jpg" />
+            <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
           </aside>
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://www.politize.com.br/wp-content/uploads/2024/07/fascismo-entenda-o-conceito.jpg" />
-            <img src="https://s1.static.brasilescola.uol.com.br/be/2022/09/1-mussolini.jpg" />
             <WikipediaImg tema="fascismo italiano" />
           </aside>
           <p className="t1">

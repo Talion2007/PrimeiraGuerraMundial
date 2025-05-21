@@ -98,13 +98,13 @@ function GuerraDoContestado() {
           <aside className="ima">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtjng9ySOLytyaGefmjU2i2gwKXNE7amIrg&s" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Contestado_tropa_Ex%C3%A9rcito.jpg" />
+            <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
           </aside>
         </section>
 
         <section className="c2">
           <aside className="ima">
-            <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
-            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2024/02/aviacao-do-exercito-brasileiro-na-guerra-do-contestado.jpg" />
             <WikipediaImg tema="Guerra do Contestado" />
           </aside>
           <p className="t1">
