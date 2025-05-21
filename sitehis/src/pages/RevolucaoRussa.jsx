@@ -83,7 +83,7 @@ function RevolucaoRussa() {
             <img src={imagemJson} alt="Imagem da API" />
           </aside>
           <p className="t1">
-            <h2>Informações da API</h2>
+            <h2>Informações da Wikipedia</h2>
             <Wikipedia tema="Guerra Civil Russa" storage="Imagem Revolução Russa" />
             <Curtida id="Wikipedia Revolução Russa" />
           </p>
