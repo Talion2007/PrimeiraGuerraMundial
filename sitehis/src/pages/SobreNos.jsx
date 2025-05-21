@@ -33,7 +33,6 @@ function SobreNos() {
           Se você nos vê rindo, discutindo ou criando algo incrível — é só mais
           um dia normal com a gente.
         </p>
-      </section>
       <br></br>
       <article>
         <iframe
@@ -47,6 +46,7 @@ function SobreNos() {
           allowfullscreen
         ></iframe>
       </article>
+      </section>
       <Footer />
     </>
   );
