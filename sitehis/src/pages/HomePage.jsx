@@ -76,7 +76,7 @@ function Home() {
           ""
         )}
         <article className="texto">
-          <h1>História do Século XX</h1>
+          <h2>História do Século XX</h2>
           <p>
             O século XX foi um caldeirão de eventos que moldaram profundamente a
             sociedade global. Desde as trincheiras da Primeira Guerra Mundial e
