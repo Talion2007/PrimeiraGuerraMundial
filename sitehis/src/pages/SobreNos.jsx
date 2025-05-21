@@ -8,31 +8,46 @@ import imageG from "../assets/grupo.jpg";
 function SobreNos() {
   return (
     <>
-      <Header titulo="Sobre Nós"/>
+      <Header titulo="Sobre Nós" />
 
       <img src={imageG} className="imageg" />
       <section className="bloco">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem vel
-          eveniet consequuntur maiores recusandae dolorem laboriosam perspiciatis
-          facere. Eveniet voluptate temporibus ad sunt ducimus in consequuntur
-          totam quo corporis?Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Cum incidunt praesentium omnis, unde similique, maiores eveniet
-          mollitia earum perferendis tempore nulla in eum sunt expedita iure
-          numquam architecto officiis itaque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Dicta eligendi, natus, rerum molestiae,
-          quod eos maxime eum cumque libero necessitatibus sequi! Libero iure ut
-          facilis minus neque harum sit consequuntur. Lorem, ipsum dolor sit amet
-          consectetur adipisicing elit. Magni repellat quia blanditiis eos maxime
-          accusamus asperiores magnam! Praesentium asperiores aperiam quas id ab
-          incidunt perspiciatis? Blanditiis fugit minus a quis? Lorem, ipsum dolor
-          sit amet consectetur adipisicing elit. Et nulla eveniet inventore,
-          labore fugiat iure eius doloribus repellat omnis obcaecati eum mollitia.
-          Natus reiciendis suscipit voluptatum quas rerum pariatur necessitatibus.
+          Somos um grupo de cinco cabeças (e muitas ideias), cada um com seu
+          jeito único, mas juntos formamos um time que se completa — às vezes no
+          caos, mas sempre com criatividade e bom humor. Felipe é o nosso líder
+          — o cérebro e o palhaço da equipe. Ele segura as rédeas do grupo com
+          uma mão e faz piada com a outra. Lidera com leveza e sabe deixar tudo
+          mais divertido. Vitor, o nosso rei dos códigos, transforma café e
+          teclas em magia digital. Se existe uma solução, ele já codou. Se não
+          existe, ele inventa. Murilo Correia, o vice-líder e verdadeiro rei dos
+          fones — cada semana aparece com um modelo novo. Dizem que ele tem mais
+          fone do que roupa no armário. Mas quando fala, todo mundo ouve. Murilo
+          Besson é o cara dos carros. Se não está falando de motor, está
+          pensando em acelerar. É o piloto das ideias e o mecânico das opiniões
+          — sempre com rodas na cabeça. E por fim, temos o William, o membro
+          mais… trabalhoso. Aquele que sempre nos dá motivos pra rir, se
+          estressar e contar histórias depois. Mas, no fundo, a gente não
+          conseguiria sem ele (só não conta pra ele que a gente disse isso).
+          Juntos, somos um grupo diferente, criativo e cheio de personalidade.
+          Se você nos vê rindo, discutindo ou criando algo incrível — é só mais
+          um dia normal com a gente.
         </p>
-      
       </section>
-      <Footer/>
+      <br></br>
+      <article>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/dZx7uNhlaXU?si=h53z_dlcssstRSN7"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </article>
+      <Footer />
     </>
   );
 }
