@@ -78,16 +78,25 @@ function Home() {
         <article className="texto">
           <h2>História do Século XX</h2>
           <p>
-            O século XX foi um caldeirão de eventos que moldaram profundamente a
-            sociedade global. Desde as trincheiras da Primeira Guerra Mundial e
-            a ascensão da Revolução Russa, que transformaram a geopolítica, até
-            os dramas internos do Brasil, como as Guerras de Canudos e do
-            Contestado, que expuseram as feridas sociais do país. A devastadora
-            Crise de 1929 abalou economias mundiais, criando um vácuo que seria
-            preenchido pela ascensão de ideologias extremistas como o Fascismo.
-            Este período turbulento não apenas redefiniu fronteiras e sistemas
-            políticos, mas também lançou as bases para os desafios e as
-            inovações que viriam nas décadas seguintes.
+            Se você curte história e quer entender de um jeito direto e sem
+            enrolação, tá no lugar certo! Aqui no site, você encontra várias
+            páginas com conteúdos explicados de forma simples sobre eventos que
+            mudaram o mundo. Tem a Primeira Guerra Mundial, onde você entende
+            como começou aquele conflito gigante que envolveu vários países e
+            teve impacto até hoje. Também tem a Guerra de Canudos, com a
+            história de Antônio Conselheiro e de um povo que resistiu no sertão
+            da Bahia, e a Guerra do Contestado, que rolou no sul do Brasil com
+            briga por terra, fé e política tudo junto. Além disso, dá pra
+            aprender sobre o Fascismo Italiano, como o Mussolini chegou ao poder
+            e o que esse regime significou pra Europa, e a Revolução Russa, onde
+            a galera derrubou o governo e mudou completamente o sistema
+            político. E claro, não podia faltar a Crise de 1929, quando a Bolsa
+            de Nova York quebrou e o mundo inteiro sentiu o baque com a maior
+            crise econômica da época. Ah, e tem também a Página de Curtidas,
+            onde você vê quais conteúdos a galera mais acessa e curte. Então
+            fica à vontade pra explorar, aprender no seu tempo e compartilhar
+            com quem também gosta de história. Bora entender o passado pra fazer
+            mais sentido do presente!
           </p>
         </article>
       </section>
