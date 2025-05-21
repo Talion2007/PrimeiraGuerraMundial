@@ -46,6 +46,6 @@ body.dark-mode .card:hover {
 @media screen and (max-width: 480px) {
     .card {
         width: 80vw;
-        height: 70vh;
+        height: auto;
     }
 }
