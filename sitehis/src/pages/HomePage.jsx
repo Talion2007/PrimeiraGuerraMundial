@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Cards from "../components/cards";
 import "../styles/home.css";
 
 function Home() {
@@ -90,6 +91,8 @@ function Home() {
             inovações que viriam nas décadas seguintes.
           </p>
         </article>
+        <br/>
+        <Cards />
       </section>
       <Footer />
     </>
