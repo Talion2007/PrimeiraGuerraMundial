@@ -30,7 +30,7 @@ function Wikipedia(props) {
 
   return (
     <>
-      <p style={{ whiteSpace: 'pre-wrap' }}>{dados.extract}</p>
+      {dados.extract}
     </>
   );
 }
