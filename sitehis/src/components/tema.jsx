@@ -25,13 +25,15 @@ function Tema() {
     document.body.classList.add("dark-home");
     document.body.classList.add("dark-page");
     document.body.classList.add("dark-rank")
-    } else {
+    document.body.classList.add("dark-mode");
+  } else {
     document.body.classList.remove("dark-mode");
     document.body.classList.remove("dark-nav");
     document.body.classList.remove("dark-header");
     document.body.classList.remove("dark-home");
     document.body.classList.remove("dark-page");
     document.body.classList.remove("dark-rank")
+    document.body.classList.remove("dark-mode");
   }
 
   return (
