@@ -29,12 +29,6 @@ body{
   align-items: center;
 }
 
-.bloco img:hover{
-    width: 90vw;
-  
-    border-radius: 8px;
-}
-
 .ImagemCarrocel{
     width: 50vw;
     height: 50vh;
