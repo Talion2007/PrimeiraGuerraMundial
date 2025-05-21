@@ -12,8 +12,8 @@ function GuerraDoContestado() {
       <Header titulo="Guerra do Contestado" />
 
       <section className="bloco">
-        <section className="c1">
-          <p className="t1">
+        <section className="container">
+          <p className="texto">
             <h2>Artigo Guerra do Contestado</h2>
             A Guerra do Contestado (1912–1916) foi um dos mais importantes e
             dramáticos conflitos armados do Brasil republicano, ocorrendo entre
@@ -95,7 +95,7 @@ function GuerraDoContestado() {
             <Curtida id="Artigo Contestado" />
           </p>
 
-          <aside className="ima">
+          <aside>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtjng9ySOLytyaGefmjU2i2gwKXNE7amIrg&s" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Contestado_tropa_Ex%C3%A9rcito.jpg" />
             <img src="https://mst.org.br/wp-content/uploads/2019/11/18230701228_2e0843ed8e_b-2.jpg" />
@@ -103,11 +103,11 @@ function GuerraDoContestado() {
           </aside>
         </section>
 
-        <section className="c2">
-          <aside className="ima">
+        <section className="container">
+          <aside>
             <WikipediaImg tema="Guerra do Contestado" />
           </aside>
-          <p className="t1">
+          <p className="texto">
             <h2>Informações da API</h2>
             <Wikipedia tema="Guerra do Contestado" />
             <Curtida id="Wikipedia Contestado" />
@@ -125,7 +125,9 @@ function GuerraDoContestado() {
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <p className="texto">
           <Curtida id="Video Contestado" />
+          </p>
         </article>
       </section>
       <Footer />

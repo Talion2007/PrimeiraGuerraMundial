@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Cards from "../components/cards";
+import "../styles/page.css";
 import "../styles/home.css";
 
 function Home() {
@@ -76,9 +77,9 @@ function Home() {
         ) : (
           ""
         )}
-        <article className="texto">
-          <h2>História do Século XX</h2>
+        <section className="container">
           <p>
+          <h2>História do Século XX</h2>
             Se você curte história e quer aprender de um jeito simples, direto e
             sem enrolação, chegou ao lugar certo. Este site faz parte de um
             projeto integrado entre o SESI e o SENAI, criado especialmente para
@@ -108,7 +109,7 @@ function Home() {
             digital pensado para tornar o aprendizado de história mais
             interessante, intuitivo e conectado com a tecnologia.
           </p>
-        </article>
+        </section>
         <br />
         <Cards />
       </section>

@@ -11,7 +11,7 @@ function SobreNos() {
       <Header titulo="Sobre Nós" />
 
       <section className="bloco">
-      <img src={imageG} className="imageg" />
+      <img src={imageG} className="imagemGrupo" />
         <p>
           Somos um grupo de cinco cabeças (e muitas ideias), cada um com seu
           jeito único, mas juntos formamos um time que se completa — às vezes no
