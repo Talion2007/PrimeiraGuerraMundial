@@ -14,7 +14,7 @@ function Home() {
       if (carrousel >= 5) {
         setCarrousel(0);
       }
-    }, 2000);
+    }, 700);
     return () => clearInterval(interval);
   });
 

@@ -1,16 +1,24 @@
-.ImagemCarrocel{
+.ImagemCarrocel {
     width: 50vw;
     height: 50vh;
     object-fit: cover;
     object-position: center;
-    transition: 2.5s;
     border-radius: 1em;
+    transition: 2.5s;
 }
 
-@media screen and (max-width: 480px) {
-    .ImagemCarrocel{
-       width: 75vw;
-         height: 50vh;
+.ImagemCarrocel:hover {
+    animation: camera-flash 0.4s cubic-bezier(.4,2,.3,1);
+}
+
+@keyframes camera-flash {
+    0% {
+        filter: brightness(1);
     }
-    
+    30% {
+        filter: brightness(2.5);
+    }
+    100% {
+        filter: brightness(1);
+    }
 }
