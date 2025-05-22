@@ -6,3 +6,11 @@
     transition: 2.5s;
     border-radius: 1em;
 }
+
+@media screen and (max-width: 480px) {
+    .ImagemCarrocel{
+       width: 75vw;
+         height: 50vh;
+    }
+    
+}
